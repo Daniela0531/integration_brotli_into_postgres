@@ -1,0 +1,163 @@
+2024-04-03 19:05:41.387 MSK [15649] LOG:  starting PostgreSQL 14.11 (Homebrew) on aarch64-apple-darwin20.6.0, compiled by Apple clang version 13.0.0 (clang-1300.0.29.30), 64-bit
+2024-04-03 19:05:41.389 MSK [15649] LOG:  listening on IPv4 address "127.0.0.1", port 5432
+2024-04-03 19:05:41.389 MSK [15649] LOG:  listening on IPv6 address "::1", port 5432
+2024-04-03 19:05:41.389 MSK [15649] LOG:  listening on Unix socket "/tmp/.s.PGSQL.5432"
+2024-04-03 19:05:41.391 MSK [15650] LOG:  database system was shut down at 2024-04-03 19:05:41 MSK
+2024-04-03 19:05:41.393 MSK [15649] LOG:  database system is ready to accept connections
+2024-04-03 19:05:51.248 MSK [15658] ERROR:  unrecognized parameter "compression"
+2024-04-03 19:05:51.248 MSK [15658] STATEMENT:  CREATE TABLESPACE zfs LOCATION '/var/data/cfs' WITH (compression='zlib');
+2024-04-03 19:34:08.443 MSK [39489] LOG:  starting PostgreSQL 17devel on aarch64-apple-darwin20.6.0, compiled by Apple clang version 13.0.0 (clang-1300.0.29.30), 64-bit
+2024-04-03 19:34:08.445 MSK [39489] LOG:  listening on IPv4 address "127.0.0.1", port 5432
+2024-04-03 19:34:08.445 MSK [39489] LOG:  listening on IPv6 address "::1", port 5432
+2024-04-03 19:34:08.445 MSK [39489] LOG:  listening on Unix socket "/tmp/.s.PGSQL.5432"
+2024-04-03 19:34:08.448 MSK [39492] LOG:  database system was shut down at 2024-04-03 19:34:08 MSK
+2024-04-03 19:34:08.449 MSK [39489] LOG:  database system is ready to accept connections
+2024-04-03 19:34:22.363 MSK [39497] ERROR:  invalid value for boolean option "compression": zlib
+2024-04-03 19:34:22.363 MSK [39497] STATEMENT:  CREATE TABLESPACE zfs LOCATION '/var/data/cfs' WITH (compression='zlib');
+
+TODO
+
+
+TODO
+
+
+TODO
+
+
+TODO
+
+
+TODO
+
+2024-04-03 19:37:40.354 MSK [44254] FATAL:  lock file "postmaster.pid" already exists
+2024-04-03 19:37:40.354 MSK [44254] HINT:  Is another postmaster (PID 39489) running in data directory "/Users/daniela/Desktop/research_work/vanilla_postgres/postgres/pgdata"?
+2024-04-03 19:37:46.439 MSK [44262] ERROR:  invalid value for boolean option "compression": zlib
+2024-04-03 19:37:46.439 MSK [44262] STATEMENT:  CREATE TABLESPACE zfs LOCATION '/var/data/cfs' WITH (compression='zlib');
+2024-04-03 19:39:08.446 MSK [39490] LOG:  checkpoint starting: time
+2024-04-03 19:39:12.803 MSK [39490] LOG:  checkpoint complete: wrote 46 buffers (0.3%); 0 WAL file(s) added, 0 removed, 0 recycled; write=4.351 s, sync=0.002 s, total=4.357 s; sync files=11, longest=0.001 s, average=0.001 s; distance=278 kB, estimate=278 kB; lsn=0/14D7FF8, redo lsn=0/14D7FA0
+
+TODO
+
+
+TODO
+
+
+TODO
+
+
+TODO
+
+
+TODO
+
+2024-04-03 19:40:36.797 MSK [39489] LOG:  received fast shutdown request
+2024-04-03 19:40:36.797 MSK [39489] LOG:  aborting any active transactions
+2024-04-03 19:40:36.798 MSK [39489] LOG:  background worker "logical replication launcher" (PID 39495) exited with exit code 1
+2024-04-03 19:40:36.798 MSK [39490] LOG:  shutting down
+2024-04-03 19:40:36.798 MSK [39490] LOG:  checkpoint starting: shutdown immediate
+2024-04-03 19:40:36.799 MSK [39490] LOG:  checkpoint complete: wrote 0 buffers (0.0%); 0 WAL file(s) added, 0 removed, 0 recycled; write=0.001 s, sync=0.001 s, total=0.002 s; sync files=0, longest=0.000 s, average=0.000 s; distance=0 kB, estimate=250 kB; lsn=0/14D80C0, redo lsn=0/14D80C0
+2024-04-03 19:40:36.801 MSK [39489] LOG:  database system is shut down
+2024-04-03 19:40:36.922 MSK [44305] LOG:  starting PostgreSQL 17devel on aarch64-apple-darwin20.6.0, compiled by Apple clang version 13.0.0 (clang-1300.0.29.30), 64-bit
+2024-04-03 19:40:36.924 MSK [44305] LOG:  listening on IPv4 address "127.0.0.1", port 5432
+2024-04-03 19:40:36.924 MSK [44305] LOG:  listening on IPv6 address "::1", port 5432
+2024-04-03 19:40:36.925 MSK [44305] LOG:  listening on Unix socket "/tmp/.s.PGSQL.5432"
+2024-04-03 19:40:36.928 MSK [44308] LOG:  database system was shut down at 2024-04-03 19:40:36 MSK
+2024-04-03 19:40:36.930 MSK [44305] LOG:  database system is ready to accept connections
+2024-04-03 19:40:40.401 MSK [44313] ERROR:  invalid value for boolean option "compression": zlib
+2024-04-03 19:40:40.401 MSK [44313] STATEMENT:  CREATE TABLESPACE zfs LOCATION '/var/data/cfs' WITH (compression='zlib');
+2024-04-03 19:45:36.927 MSK [44306] LOG:  checkpoint starting: time
+2024-04-03 19:45:36.929 MSK [44306] LOG:  checkpoint complete: wrote 3 buffers (0.0%); 0 WAL file(s) added, 0 removed, 0 recycled; write=0.001 s, sync=0.001 s, total=0.003 s; sync files=2, longest=0.001 s, average=0.001 s; distance=0 kB, estimate=0 kB; lsn=0/14D81E8, redo lsn=0/14D8190
+
+TODO
+
+
+TODO
+
+
+TODO
+
+
+TODO
+
+
+TODO
+
+2024-04-03 19:49:07.402 MSK [44305] LOG:  could not open file "postmaster.pid": No such file or directory
+2024-04-03 19:49:07.403 MSK [44305] LOG:  performing immediate shutdown because data directory lock file is invalid
+2024-04-03 19:49:07.403 MSK [44305] LOG:  received immediate shutdown request
+2024-04-03 19:49:07.403 MSK [44305] LOG:  could not open file "postmaster.pid": No such file or directory
+2024-04-03 19:49:07.474 MSK [44305] LOG:  database system is shut down
+2024-04-03 19:53:08.016 MSK [49389] LOG:  starting PostgreSQL 17devel on aarch64-apple-darwin20.6.0, compiled by Apple clang version 13.0.0 (clang-1300.0.29.30), 64-bit
+2024-04-03 19:53:08.017 MSK [49389] LOG:  listening on IPv4 address "127.0.0.1", port 5432
+2024-04-03 19:53:08.017 MSK [49389] LOG:  listening on IPv6 address "::1", port 5432
+2024-04-03 19:53:08.018 MSK [49389] LOG:  listening on Unix socket "/tmp/.s.PGSQL.5432"
+2024-04-03 19:53:08.020 MSK [49392] LOG:  database system was shut down at 2024-04-03 19:52:58 MSK
+2024-04-03 19:53:08.021 MSK [49389] LOG:  database system is ready to accept connections
+2024-04-03 19:53:24.824 MSK [49405] ERROR:  invalid value for boolean option "compression": zlib
+2024-04-03 19:53:24.824 MSK [49405] STATEMENT:  CREATE TABLESPACE zfs LOCATION '/var/data/cfs' WITH (compression='zlib');
+2024-04-03 19:54:41.429 MSK [49405] ERROR:  directory "/var/data/cfs" does not exist
+2024-04-03 19:54:41.429 MSK [49405] STATEMENT:  CREATE TABLESPACE zfs LOCATION '/var/data/cfs' WITH (compression=true);
+2024-04-03 19:58:08.015 MSK [49390] LOG:  checkpoint starting: time
+2024-04-03 19:58:12.771 MSK [49390] LOG:  checkpoint complete: wrote 50 buffers (0.3%); 0 WAL file(s) added, 0 removed, 0 recycled; write=4.752 s, sync=0.003 s, total=4.757 s; sync files=15, longest=0.001 s, average=0.001 s; distance=280 kB, estimate=280 kB; lsn=0/14D85D8, redo lsn=0/14D8548
+
+TODO
+
+
+TODO
+
+
+TODO
+
+
+TODO
+
+
+TODO
+
+
+TODO
+
+
+TODO
+
+
+TODO
+
+
+TODO
+
+
+TODO
+
+
+TODO
+
+
+TODO
+
+
+TODO
+
+2024-04-03 20:03:08.525 MSK [49389] LOG:  server process (PID 59980) was terminated by signal 9: Killed: 9
+2024-04-03 20:03:08.525 MSK [49389] LOG:  terminating any other active server processes
+2024-04-03 20:03:08.526 MSK [49389] LOG:  all server processes terminated; reinitializing
+2024-04-03 20:03:08.528 MSK [49389] LOG:  startup process (PID 59981) was terminated by signal 9: Killed: 9
+2024-04-03 20:03:08.528 MSK [49389] LOG:  aborting startup due to startup process failure
+2024-04-03 20:03:08.528 MSK [49389] LOG:  database system is shut down
+2024-04-03 20:16:50.222 MSK [96150] LOG:  starting PostgreSQL 17devel on aarch64-apple-darwin20.6.0, compiled by Apple clang version 13.0.0 (clang-1300.0.29.30), 64-bit
+2024-04-03 20:16:50.224 MSK [96150] LOG:  listening on IPv4 address "127.0.0.1", port 5432
+2024-04-03 20:16:50.224 MSK [96150] LOG:  listening on IPv6 address "::1", port 5432
+2024-04-03 20:16:50.224 MSK [96150] LOG:  listening on Unix socket "/tmp/.s.PGSQL.5432"
+2024-04-03 20:16:50.227 MSK [96153] LOG:  database system was shut down at 2024-04-03 20:16:50 MSK
+2024-04-03 20:16:50.228 MSK [96150] LOG:  database system is ready to accept connections
+2024-04-03 20:21:50.223 MSK [96151] LOG:  checkpoint starting: time
+2024-04-03 20:21:54.613 MSK [96151] LOG:  checkpoint complete: wrote 46 buffers (0.3%); 0 WAL file(s) added, 0 removed, 0 recycled; write=4.384 s, sync=0.002 s, total=4.390 s; sync files=11, longest=0.001 s, average=0.001 s; distance=278 kB, estimate=278 kB; lsn=0/14D8048, redo lsn=0/14D7FA0
+2024-04-03 22:46:17.093 MSK [96159] ERROR:  directory "/Users/daniela/Desktop/research_work/bd_test/PG_17_202404022" already in use as a tablespace
+2024-04-03 22:46:17.093 MSK [96159] STATEMENT:  CREATE TABLESPACE qwerty LOCATION '/Users/daniela/Desktop/research_work/bd_test' WITH (compression=true);
+2024-04-03 22:48:13.416 MSK [96151] LOG:  checkpoint starting: time
+2024-04-03 22:48:13.827 MSK [96151] LOG:  checkpoint complete: wrote 5 buffers (0.0%); 0 WAL file(s) added, 0 removed, 0 recycled; write=0.407 s, sync=0.001 s, total=0.411 s; sync files=5, longest=0.001 s, average=0.001 s; distance=1 kB, estimate=251 kB; lsn=0/14D84B0, redo lsn=0/14D8458
+2024-04-04 00:04:20.392 MSK [96150] LOG:  could not open file "postmaster.pid": No such file or directory
+2024-04-04 00:04:20.393 MSK [96150] LOG:  performing immediate shutdown because data directory lock file is invalid
+2024-04-04 00:04:20.393 MSK [96150] LOG:  received immediate shutdown request
+2024-04-04 00:04:20.393 MSK [96150] LOG:  could not open file "postmaster.pid": No such file or directory
+2024-04-04 00:04:20.395 MSK [96150] LOG:  database system is shut down
