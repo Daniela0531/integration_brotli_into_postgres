@@ -53,10 +53,10 @@ RM = /opt/homebrew/Cellar/cmake/3.29.0/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /Users/daniela/Desktop/research_work/final_qualifying_work/vanilla_postgres/postgres/src/common/brotli
+CMAKE_SOURCE_DIR = /Users/daniela/Desktop/research_work/final_qualifying_work/brotli_into_postgres/src/common/brotli
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /Users/daniela/Desktop/research_work/final_qualifying_work/vanilla_postgres/postgres/src/common/brotli
+CMAKE_BINARY_DIR = /Users/daniela/Desktop/research_work/final_qualifying_work/brotli_into_postgres/src/common/brotli
 
 # Include any dependencies generated for this target.
 include CMakeFiles/brotlienc.dir/depend.make
@@ -72,296 +72,296 @@ include CMakeFiles/brotlienc.dir/flags.make
 CMakeFiles/brotlienc.dir/c/enc/backward_references.c.o: CMakeFiles/brotlienc.dir/flags.make
 CMakeFiles/brotlienc.dir/c/enc/backward_references.c.o: c/enc/backward_references.c
 CMakeFiles/brotlienc.dir/c/enc/backward_references.c.o: CMakeFiles/brotlienc.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/daniela/Desktop/research_work/final_qualifying_work/vanilla_postgres/postgres/src/common/brotli/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building C object CMakeFiles/brotlienc.dir/c/enc/backward_references.c.o"
-	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/brotlienc.dir/c/enc/backward_references.c.o -MF CMakeFiles/brotlienc.dir/c/enc/backward_references.c.o.d -o CMakeFiles/brotlienc.dir/c/enc/backward_references.c.o -c /Users/daniela/Desktop/research_work/final_qualifying_work/vanilla_postgres/postgres/src/common/brotli/c/enc/backward_references.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/daniela/Desktop/research_work/final_qualifying_work/brotli_into_postgres/src/common/brotli/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building C object CMakeFiles/brotlienc.dir/c/enc/backward_references.c.o"
+	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/brotlienc.dir/c/enc/backward_references.c.o -MF CMakeFiles/brotlienc.dir/c/enc/backward_references.c.o.d -o CMakeFiles/brotlienc.dir/c/enc/backward_references.c.o -c /Users/daniela/Desktop/research_work/final_qualifying_work/brotli_into_postgres/src/common/brotli/c/enc/backward_references.c
 
 CMakeFiles/brotlienc.dir/c/enc/backward_references.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/brotlienc.dir/c/enc/backward_references.c.i"
-	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/daniela/Desktop/research_work/final_qualifying_work/vanilla_postgres/postgres/src/common/brotli/c/enc/backward_references.c > CMakeFiles/brotlienc.dir/c/enc/backward_references.c.i
+	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/daniela/Desktop/research_work/final_qualifying_work/brotli_into_postgres/src/common/brotli/c/enc/backward_references.c > CMakeFiles/brotlienc.dir/c/enc/backward_references.c.i
 
 CMakeFiles/brotlienc.dir/c/enc/backward_references.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/brotlienc.dir/c/enc/backward_references.c.s"
-	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/daniela/Desktop/research_work/final_qualifying_work/vanilla_postgres/postgres/src/common/brotli/c/enc/backward_references.c -o CMakeFiles/brotlienc.dir/c/enc/backward_references.c.s
+	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/daniela/Desktop/research_work/final_qualifying_work/brotli_into_postgres/src/common/brotli/c/enc/backward_references.c -o CMakeFiles/brotlienc.dir/c/enc/backward_references.c.s
 
 CMakeFiles/brotlienc.dir/c/enc/backward_references_hq.c.o: CMakeFiles/brotlienc.dir/flags.make
 CMakeFiles/brotlienc.dir/c/enc/backward_references_hq.c.o: c/enc/backward_references_hq.c
 CMakeFiles/brotlienc.dir/c/enc/backward_references_hq.c.o: CMakeFiles/brotlienc.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/daniela/Desktop/research_work/final_qualifying_work/vanilla_postgres/postgres/src/common/brotli/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building C object CMakeFiles/brotlienc.dir/c/enc/backward_references_hq.c.o"
-	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/brotlienc.dir/c/enc/backward_references_hq.c.o -MF CMakeFiles/brotlienc.dir/c/enc/backward_references_hq.c.o.d -o CMakeFiles/brotlienc.dir/c/enc/backward_references_hq.c.o -c /Users/daniela/Desktop/research_work/final_qualifying_work/vanilla_postgres/postgres/src/common/brotli/c/enc/backward_references_hq.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/daniela/Desktop/research_work/final_qualifying_work/brotli_into_postgres/src/common/brotli/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building C object CMakeFiles/brotlienc.dir/c/enc/backward_references_hq.c.o"
+	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/brotlienc.dir/c/enc/backward_references_hq.c.o -MF CMakeFiles/brotlienc.dir/c/enc/backward_references_hq.c.o.d -o CMakeFiles/brotlienc.dir/c/enc/backward_references_hq.c.o -c /Users/daniela/Desktop/research_work/final_qualifying_work/brotli_into_postgres/src/common/brotli/c/enc/backward_references_hq.c
 
 CMakeFiles/brotlienc.dir/c/enc/backward_references_hq.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/brotlienc.dir/c/enc/backward_references_hq.c.i"
-	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/daniela/Desktop/research_work/final_qualifying_work/vanilla_postgres/postgres/src/common/brotli/c/enc/backward_references_hq.c > CMakeFiles/brotlienc.dir/c/enc/backward_references_hq.c.i
+	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/daniela/Desktop/research_work/final_qualifying_work/brotli_into_postgres/src/common/brotli/c/enc/backward_references_hq.c > CMakeFiles/brotlienc.dir/c/enc/backward_references_hq.c.i
 
 CMakeFiles/brotlienc.dir/c/enc/backward_references_hq.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/brotlienc.dir/c/enc/backward_references_hq.c.s"
-	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/daniela/Desktop/research_work/final_qualifying_work/vanilla_postgres/postgres/src/common/brotli/c/enc/backward_references_hq.c -o CMakeFiles/brotlienc.dir/c/enc/backward_references_hq.c.s
+	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/daniela/Desktop/research_work/final_qualifying_work/brotli_into_postgres/src/common/brotli/c/enc/backward_references_hq.c -o CMakeFiles/brotlienc.dir/c/enc/backward_references_hq.c.s
 
 CMakeFiles/brotlienc.dir/c/enc/bit_cost.c.o: CMakeFiles/brotlienc.dir/flags.make
 CMakeFiles/brotlienc.dir/c/enc/bit_cost.c.o: c/enc/bit_cost.c
 CMakeFiles/brotlienc.dir/c/enc/bit_cost.c.o: CMakeFiles/brotlienc.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/daniela/Desktop/research_work/final_qualifying_work/vanilla_postgres/postgres/src/common/brotli/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building C object CMakeFiles/brotlienc.dir/c/enc/bit_cost.c.o"
-	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/brotlienc.dir/c/enc/bit_cost.c.o -MF CMakeFiles/brotlienc.dir/c/enc/bit_cost.c.o.d -o CMakeFiles/brotlienc.dir/c/enc/bit_cost.c.o -c /Users/daniela/Desktop/research_work/final_qualifying_work/vanilla_postgres/postgres/src/common/brotli/c/enc/bit_cost.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/daniela/Desktop/research_work/final_qualifying_work/brotli_into_postgres/src/common/brotli/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building C object CMakeFiles/brotlienc.dir/c/enc/bit_cost.c.o"
+	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/brotlienc.dir/c/enc/bit_cost.c.o -MF CMakeFiles/brotlienc.dir/c/enc/bit_cost.c.o.d -o CMakeFiles/brotlienc.dir/c/enc/bit_cost.c.o -c /Users/daniela/Desktop/research_work/final_qualifying_work/brotli_into_postgres/src/common/brotli/c/enc/bit_cost.c
 
 CMakeFiles/brotlienc.dir/c/enc/bit_cost.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/brotlienc.dir/c/enc/bit_cost.c.i"
-	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/daniela/Desktop/research_work/final_qualifying_work/vanilla_postgres/postgres/src/common/brotli/c/enc/bit_cost.c > CMakeFiles/brotlienc.dir/c/enc/bit_cost.c.i
+	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/daniela/Desktop/research_work/final_qualifying_work/brotli_into_postgres/src/common/brotli/c/enc/bit_cost.c > CMakeFiles/brotlienc.dir/c/enc/bit_cost.c.i
 
 CMakeFiles/brotlienc.dir/c/enc/bit_cost.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/brotlienc.dir/c/enc/bit_cost.c.s"
-	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/daniela/Desktop/research_work/final_qualifying_work/vanilla_postgres/postgres/src/common/brotli/c/enc/bit_cost.c -o CMakeFiles/brotlienc.dir/c/enc/bit_cost.c.s
+	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/daniela/Desktop/research_work/final_qualifying_work/brotli_into_postgres/src/common/brotli/c/enc/bit_cost.c -o CMakeFiles/brotlienc.dir/c/enc/bit_cost.c.s
 
 CMakeFiles/brotlienc.dir/c/enc/block_splitter.c.o: CMakeFiles/brotlienc.dir/flags.make
 CMakeFiles/brotlienc.dir/c/enc/block_splitter.c.o: c/enc/block_splitter.c
 CMakeFiles/brotlienc.dir/c/enc/block_splitter.c.o: CMakeFiles/brotlienc.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/daniela/Desktop/research_work/final_qualifying_work/vanilla_postgres/postgres/src/common/brotli/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building C object CMakeFiles/brotlienc.dir/c/enc/block_splitter.c.o"
-	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/brotlienc.dir/c/enc/block_splitter.c.o -MF CMakeFiles/brotlienc.dir/c/enc/block_splitter.c.o.d -o CMakeFiles/brotlienc.dir/c/enc/block_splitter.c.o -c /Users/daniela/Desktop/research_work/final_qualifying_work/vanilla_postgres/postgres/src/common/brotli/c/enc/block_splitter.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/daniela/Desktop/research_work/final_qualifying_work/brotli_into_postgres/src/common/brotli/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building C object CMakeFiles/brotlienc.dir/c/enc/block_splitter.c.o"
+	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/brotlienc.dir/c/enc/block_splitter.c.o -MF CMakeFiles/brotlienc.dir/c/enc/block_splitter.c.o.d -o CMakeFiles/brotlienc.dir/c/enc/block_splitter.c.o -c /Users/daniela/Desktop/research_work/final_qualifying_work/brotli_into_postgres/src/common/brotli/c/enc/block_splitter.c
 
 CMakeFiles/brotlienc.dir/c/enc/block_splitter.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/brotlienc.dir/c/enc/block_splitter.c.i"
-	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/daniela/Desktop/research_work/final_qualifying_work/vanilla_postgres/postgres/src/common/brotli/c/enc/block_splitter.c > CMakeFiles/brotlienc.dir/c/enc/block_splitter.c.i
+	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/daniela/Desktop/research_work/final_qualifying_work/brotli_into_postgres/src/common/brotli/c/enc/block_splitter.c > CMakeFiles/brotlienc.dir/c/enc/block_splitter.c.i
 
 CMakeFiles/brotlienc.dir/c/enc/block_splitter.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/brotlienc.dir/c/enc/block_splitter.c.s"
-	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/daniela/Desktop/research_work/final_qualifying_work/vanilla_postgres/postgres/src/common/brotli/c/enc/block_splitter.c -o CMakeFiles/brotlienc.dir/c/enc/block_splitter.c.s
+	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/daniela/Desktop/research_work/final_qualifying_work/brotli_into_postgres/src/common/brotli/c/enc/block_splitter.c -o CMakeFiles/brotlienc.dir/c/enc/block_splitter.c.s
 
 CMakeFiles/brotlienc.dir/c/enc/brotli_bit_stream.c.o: CMakeFiles/brotlienc.dir/flags.make
 CMakeFiles/brotlienc.dir/c/enc/brotli_bit_stream.c.o: c/enc/brotli_bit_stream.c
 CMakeFiles/brotlienc.dir/c/enc/brotli_bit_stream.c.o: CMakeFiles/brotlienc.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/daniela/Desktop/research_work/final_qualifying_work/vanilla_postgres/postgres/src/common/brotli/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building C object CMakeFiles/brotlienc.dir/c/enc/brotli_bit_stream.c.o"
-	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/brotlienc.dir/c/enc/brotli_bit_stream.c.o -MF CMakeFiles/brotlienc.dir/c/enc/brotli_bit_stream.c.o.d -o CMakeFiles/brotlienc.dir/c/enc/brotli_bit_stream.c.o -c /Users/daniela/Desktop/research_work/final_qualifying_work/vanilla_postgres/postgres/src/common/brotli/c/enc/brotli_bit_stream.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/daniela/Desktop/research_work/final_qualifying_work/brotli_into_postgres/src/common/brotli/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building C object CMakeFiles/brotlienc.dir/c/enc/brotli_bit_stream.c.o"
+	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/brotlienc.dir/c/enc/brotli_bit_stream.c.o -MF CMakeFiles/brotlienc.dir/c/enc/brotli_bit_stream.c.o.d -o CMakeFiles/brotlienc.dir/c/enc/brotli_bit_stream.c.o -c /Users/daniela/Desktop/research_work/final_qualifying_work/brotli_into_postgres/src/common/brotli/c/enc/brotli_bit_stream.c
 
 CMakeFiles/brotlienc.dir/c/enc/brotli_bit_stream.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/brotlienc.dir/c/enc/brotli_bit_stream.c.i"
-	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/daniela/Desktop/research_work/final_qualifying_work/vanilla_postgres/postgres/src/common/brotli/c/enc/brotli_bit_stream.c > CMakeFiles/brotlienc.dir/c/enc/brotli_bit_stream.c.i
+	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/daniela/Desktop/research_work/final_qualifying_work/brotli_into_postgres/src/common/brotli/c/enc/brotli_bit_stream.c > CMakeFiles/brotlienc.dir/c/enc/brotli_bit_stream.c.i
 
 CMakeFiles/brotlienc.dir/c/enc/brotli_bit_stream.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/brotlienc.dir/c/enc/brotli_bit_stream.c.s"
-	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/daniela/Desktop/research_work/final_qualifying_work/vanilla_postgres/postgres/src/common/brotli/c/enc/brotli_bit_stream.c -o CMakeFiles/brotlienc.dir/c/enc/brotli_bit_stream.c.s
+	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/daniela/Desktop/research_work/final_qualifying_work/brotli_into_postgres/src/common/brotli/c/enc/brotli_bit_stream.c -o CMakeFiles/brotlienc.dir/c/enc/brotli_bit_stream.c.s
 
 CMakeFiles/brotlienc.dir/c/enc/cluster.c.o: CMakeFiles/brotlienc.dir/flags.make
 CMakeFiles/brotlienc.dir/c/enc/cluster.c.o: c/enc/cluster.c
 CMakeFiles/brotlienc.dir/c/enc/cluster.c.o: CMakeFiles/brotlienc.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/daniela/Desktop/research_work/final_qualifying_work/vanilla_postgres/postgres/src/common/brotli/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building C object CMakeFiles/brotlienc.dir/c/enc/cluster.c.o"
-	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/brotlienc.dir/c/enc/cluster.c.o -MF CMakeFiles/brotlienc.dir/c/enc/cluster.c.o.d -o CMakeFiles/brotlienc.dir/c/enc/cluster.c.o -c /Users/daniela/Desktop/research_work/final_qualifying_work/vanilla_postgres/postgres/src/common/brotli/c/enc/cluster.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/daniela/Desktop/research_work/final_qualifying_work/brotli_into_postgres/src/common/brotli/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building C object CMakeFiles/brotlienc.dir/c/enc/cluster.c.o"
+	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/brotlienc.dir/c/enc/cluster.c.o -MF CMakeFiles/brotlienc.dir/c/enc/cluster.c.o.d -o CMakeFiles/brotlienc.dir/c/enc/cluster.c.o -c /Users/daniela/Desktop/research_work/final_qualifying_work/brotli_into_postgres/src/common/brotli/c/enc/cluster.c
 
 CMakeFiles/brotlienc.dir/c/enc/cluster.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/brotlienc.dir/c/enc/cluster.c.i"
-	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/daniela/Desktop/research_work/final_qualifying_work/vanilla_postgres/postgres/src/common/brotli/c/enc/cluster.c > CMakeFiles/brotlienc.dir/c/enc/cluster.c.i
+	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/daniela/Desktop/research_work/final_qualifying_work/brotli_into_postgres/src/common/brotli/c/enc/cluster.c > CMakeFiles/brotlienc.dir/c/enc/cluster.c.i
 
 CMakeFiles/brotlienc.dir/c/enc/cluster.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/brotlienc.dir/c/enc/cluster.c.s"
-	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/daniela/Desktop/research_work/final_qualifying_work/vanilla_postgres/postgres/src/common/brotli/c/enc/cluster.c -o CMakeFiles/brotlienc.dir/c/enc/cluster.c.s
+	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/daniela/Desktop/research_work/final_qualifying_work/brotli_into_postgres/src/common/brotli/c/enc/cluster.c -o CMakeFiles/brotlienc.dir/c/enc/cluster.c.s
 
 CMakeFiles/brotlienc.dir/c/enc/command.c.o: CMakeFiles/brotlienc.dir/flags.make
 CMakeFiles/brotlienc.dir/c/enc/command.c.o: c/enc/command.c
 CMakeFiles/brotlienc.dir/c/enc/command.c.o: CMakeFiles/brotlienc.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/daniela/Desktop/research_work/final_qualifying_work/vanilla_postgres/postgres/src/common/brotli/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building C object CMakeFiles/brotlienc.dir/c/enc/command.c.o"
-	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/brotlienc.dir/c/enc/command.c.o -MF CMakeFiles/brotlienc.dir/c/enc/command.c.o.d -o CMakeFiles/brotlienc.dir/c/enc/command.c.o -c /Users/daniela/Desktop/research_work/final_qualifying_work/vanilla_postgres/postgres/src/common/brotli/c/enc/command.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/daniela/Desktop/research_work/final_qualifying_work/brotli_into_postgres/src/common/brotli/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building C object CMakeFiles/brotlienc.dir/c/enc/command.c.o"
+	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/brotlienc.dir/c/enc/command.c.o -MF CMakeFiles/brotlienc.dir/c/enc/command.c.o.d -o CMakeFiles/brotlienc.dir/c/enc/command.c.o -c /Users/daniela/Desktop/research_work/final_qualifying_work/brotli_into_postgres/src/common/brotli/c/enc/command.c
 
 CMakeFiles/brotlienc.dir/c/enc/command.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/brotlienc.dir/c/enc/command.c.i"
-	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/daniela/Desktop/research_work/final_qualifying_work/vanilla_postgres/postgres/src/common/brotli/c/enc/command.c > CMakeFiles/brotlienc.dir/c/enc/command.c.i
+	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/daniela/Desktop/research_work/final_qualifying_work/brotli_into_postgres/src/common/brotli/c/enc/command.c > CMakeFiles/brotlienc.dir/c/enc/command.c.i
 
 CMakeFiles/brotlienc.dir/c/enc/command.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/brotlienc.dir/c/enc/command.c.s"
-	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/daniela/Desktop/research_work/final_qualifying_work/vanilla_postgres/postgres/src/common/brotli/c/enc/command.c -o CMakeFiles/brotlienc.dir/c/enc/command.c.s
+	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/daniela/Desktop/research_work/final_qualifying_work/brotli_into_postgres/src/common/brotli/c/enc/command.c -o CMakeFiles/brotlienc.dir/c/enc/command.c.s
 
 CMakeFiles/brotlienc.dir/c/enc/compound_dictionary.c.o: CMakeFiles/brotlienc.dir/flags.make
 CMakeFiles/brotlienc.dir/c/enc/compound_dictionary.c.o: c/enc/compound_dictionary.c
 CMakeFiles/brotlienc.dir/c/enc/compound_dictionary.c.o: CMakeFiles/brotlienc.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/daniela/Desktop/research_work/final_qualifying_work/vanilla_postgres/postgres/src/common/brotli/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Building C object CMakeFiles/brotlienc.dir/c/enc/compound_dictionary.c.o"
-	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/brotlienc.dir/c/enc/compound_dictionary.c.o -MF CMakeFiles/brotlienc.dir/c/enc/compound_dictionary.c.o.d -o CMakeFiles/brotlienc.dir/c/enc/compound_dictionary.c.o -c /Users/daniela/Desktop/research_work/final_qualifying_work/vanilla_postgres/postgres/src/common/brotli/c/enc/compound_dictionary.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/daniela/Desktop/research_work/final_qualifying_work/brotli_into_postgres/src/common/brotli/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Building C object CMakeFiles/brotlienc.dir/c/enc/compound_dictionary.c.o"
+	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/brotlienc.dir/c/enc/compound_dictionary.c.o -MF CMakeFiles/brotlienc.dir/c/enc/compound_dictionary.c.o.d -o CMakeFiles/brotlienc.dir/c/enc/compound_dictionary.c.o -c /Users/daniela/Desktop/research_work/final_qualifying_work/brotli_into_postgres/src/common/brotli/c/enc/compound_dictionary.c
 
 CMakeFiles/brotlienc.dir/c/enc/compound_dictionary.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/brotlienc.dir/c/enc/compound_dictionary.c.i"
-	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/daniela/Desktop/research_work/final_qualifying_work/vanilla_postgres/postgres/src/common/brotli/c/enc/compound_dictionary.c > CMakeFiles/brotlienc.dir/c/enc/compound_dictionary.c.i
+	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/daniela/Desktop/research_work/final_qualifying_work/brotli_into_postgres/src/common/brotli/c/enc/compound_dictionary.c > CMakeFiles/brotlienc.dir/c/enc/compound_dictionary.c.i
 
 CMakeFiles/brotlienc.dir/c/enc/compound_dictionary.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/brotlienc.dir/c/enc/compound_dictionary.c.s"
-	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/daniela/Desktop/research_work/final_qualifying_work/vanilla_postgres/postgres/src/common/brotli/c/enc/compound_dictionary.c -o CMakeFiles/brotlienc.dir/c/enc/compound_dictionary.c.s
+	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/daniela/Desktop/research_work/final_qualifying_work/brotli_into_postgres/src/common/brotli/c/enc/compound_dictionary.c -o CMakeFiles/brotlienc.dir/c/enc/compound_dictionary.c.s
 
 CMakeFiles/brotlienc.dir/c/enc/compress_fragment.c.o: CMakeFiles/brotlienc.dir/flags.make
 CMakeFiles/brotlienc.dir/c/enc/compress_fragment.c.o: c/enc/compress_fragment.c
 CMakeFiles/brotlienc.dir/c/enc/compress_fragment.c.o: CMakeFiles/brotlienc.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/daniela/Desktop/research_work/final_qualifying_work/vanilla_postgres/postgres/src/common/brotli/CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Building C object CMakeFiles/brotlienc.dir/c/enc/compress_fragment.c.o"
-	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/brotlienc.dir/c/enc/compress_fragment.c.o -MF CMakeFiles/brotlienc.dir/c/enc/compress_fragment.c.o.d -o CMakeFiles/brotlienc.dir/c/enc/compress_fragment.c.o -c /Users/daniela/Desktop/research_work/final_qualifying_work/vanilla_postgres/postgres/src/common/brotli/c/enc/compress_fragment.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/daniela/Desktop/research_work/final_qualifying_work/brotli_into_postgres/src/common/brotli/CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Building C object CMakeFiles/brotlienc.dir/c/enc/compress_fragment.c.o"
+	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/brotlienc.dir/c/enc/compress_fragment.c.o -MF CMakeFiles/brotlienc.dir/c/enc/compress_fragment.c.o.d -o CMakeFiles/brotlienc.dir/c/enc/compress_fragment.c.o -c /Users/daniela/Desktop/research_work/final_qualifying_work/brotli_into_postgres/src/common/brotli/c/enc/compress_fragment.c
 
 CMakeFiles/brotlienc.dir/c/enc/compress_fragment.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/brotlienc.dir/c/enc/compress_fragment.c.i"
-	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/daniela/Desktop/research_work/final_qualifying_work/vanilla_postgres/postgres/src/common/brotli/c/enc/compress_fragment.c > CMakeFiles/brotlienc.dir/c/enc/compress_fragment.c.i
+	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/daniela/Desktop/research_work/final_qualifying_work/brotli_into_postgres/src/common/brotli/c/enc/compress_fragment.c > CMakeFiles/brotlienc.dir/c/enc/compress_fragment.c.i
 
 CMakeFiles/brotlienc.dir/c/enc/compress_fragment.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/brotlienc.dir/c/enc/compress_fragment.c.s"
-	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/daniela/Desktop/research_work/final_qualifying_work/vanilla_postgres/postgres/src/common/brotli/c/enc/compress_fragment.c -o CMakeFiles/brotlienc.dir/c/enc/compress_fragment.c.s
+	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/daniela/Desktop/research_work/final_qualifying_work/brotli_into_postgres/src/common/brotli/c/enc/compress_fragment.c -o CMakeFiles/brotlienc.dir/c/enc/compress_fragment.c.s
 
 CMakeFiles/brotlienc.dir/c/enc/compress_fragment_two_pass.c.o: CMakeFiles/brotlienc.dir/flags.make
 CMakeFiles/brotlienc.dir/c/enc/compress_fragment_two_pass.c.o: c/enc/compress_fragment_two_pass.c
 CMakeFiles/brotlienc.dir/c/enc/compress_fragment_two_pass.c.o: CMakeFiles/brotlienc.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/daniela/Desktop/research_work/final_qualifying_work/vanilla_postgres/postgres/src/common/brotli/CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Building C object CMakeFiles/brotlienc.dir/c/enc/compress_fragment_two_pass.c.o"
-	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/brotlienc.dir/c/enc/compress_fragment_two_pass.c.o -MF CMakeFiles/brotlienc.dir/c/enc/compress_fragment_two_pass.c.o.d -o CMakeFiles/brotlienc.dir/c/enc/compress_fragment_two_pass.c.o -c /Users/daniela/Desktop/research_work/final_qualifying_work/vanilla_postgres/postgres/src/common/brotli/c/enc/compress_fragment_two_pass.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/daniela/Desktop/research_work/final_qualifying_work/brotli_into_postgres/src/common/brotli/CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Building C object CMakeFiles/brotlienc.dir/c/enc/compress_fragment_two_pass.c.o"
+	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/brotlienc.dir/c/enc/compress_fragment_two_pass.c.o -MF CMakeFiles/brotlienc.dir/c/enc/compress_fragment_two_pass.c.o.d -o CMakeFiles/brotlienc.dir/c/enc/compress_fragment_two_pass.c.o -c /Users/daniela/Desktop/research_work/final_qualifying_work/brotli_into_postgres/src/common/brotli/c/enc/compress_fragment_two_pass.c
 
 CMakeFiles/brotlienc.dir/c/enc/compress_fragment_two_pass.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/brotlienc.dir/c/enc/compress_fragment_two_pass.c.i"
-	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/daniela/Desktop/research_work/final_qualifying_work/vanilla_postgres/postgres/src/common/brotli/c/enc/compress_fragment_two_pass.c > CMakeFiles/brotlienc.dir/c/enc/compress_fragment_two_pass.c.i
+	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/daniela/Desktop/research_work/final_qualifying_work/brotli_into_postgres/src/common/brotli/c/enc/compress_fragment_two_pass.c > CMakeFiles/brotlienc.dir/c/enc/compress_fragment_two_pass.c.i
 
 CMakeFiles/brotlienc.dir/c/enc/compress_fragment_two_pass.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/brotlienc.dir/c/enc/compress_fragment_two_pass.c.s"
-	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/daniela/Desktop/research_work/final_qualifying_work/vanilla_postgres/postgres/src/common/brotli/c/enc/compress_fragment_two_pass.c -o CMakeFiles/brotlienc.dir/c/enc/compress_fragment_two_pass.c.s
+	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/daniela/Desktop/research_work/final_qualifying_work/brotli_into_postgres/src/common/brotli/c/enc/compress_fragment_two_pass.c -o CMakeFiles/brotlienc.dir/c/enc/compress_fragment_two_pass.c.s
 
 CMakeFiles/brotlienc.dir/c/enc/dictionary_hash.c.o: CMakeFiles/brotlienc.dir/flags.make
 CMakeFiles/brotlienc.dir/c/enc/dictionary_hash.c.o: c/enc/dictionary_hash.c
 CMakeFiles/brotlienc.dir/c/enc/dictionary_hash.c.o: CMakeFiles/brotlienc.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/daniela/Desktop/research_work/final_qualifying_work/vanilla_postgres/postgres/src/common/brotli/CMakeFiles --progress-num=$(CMAKE_PROGRESS_11) "Building C object CMakeFiles/brotlienc.dir/c/enc/dictionary_hash.c.o"
-	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/brotlienc.dir/c/enc/dictionary_hash.c.o -MF CMakeFiles/brotlienc.dir/c/enc/dictionary_hash.c.o.d -o CMakeFiles/brotlienc.dir/c/enc/dictionary_hash.c.o -c /Users/daniela/Desktop/research_work/final_qualifying_work/vanilla_postgres/postgres/src/common/brotli/c/enc/dictionary_hash.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/daniela/Desktop/research_work/final_qualifying_work/brotli_into_postgres/src/common/brotli/CMakeFiles --progress-num=$(CMAKE_PROGRESS_11) "Building C object CMakeFiles/brotlienc.dir/c/enc/dictionary_hash.c.o"
+	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/brotlienc.dir/c/enc/dictionary_hash.c.o -MF CMakeFiles/brotlienc.dir/c/enc/dictionary_hash.c.o.d -o CMakeFiles/brotlienc.dir/c/enc/dictionary_hash.c.o -c /Users/daniela/Desktop/research_work/final_qualifying_work/brotli_into_postgres/src/common/brotli/c/enc/dictionary_hash.c
 
 CMakeFiles/brotlienc.dir/c/enc/dictionary_hash.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/brotlienc.dir/c/enc/dictionary_hash.c.i"
-	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/daniela/Desktop/research_work/final_qualifying_work/vanilla_postgres/postgres/src/common/brotli/c/enc/dictionary_hash.c > CMakeFiles/brotlienc.dir/c/enc/dictionary_hash.c.i
+	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/daniela/Desktop/research_work/final_qualifying_work/brotli_into_postgres/src/common/brotli/c/enc/dictionary_hash.c > CMakeFiles/brotlienc.dir/c/enc/dictionary_hash.c.i
 
 CMakeFiles/brotlienc.dir/c/enc/dictionary_hash.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/brotlienc.dir/c/enc/dictionary_hash.c.s"
-	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/daniela/Desktop/research_work/final_qualifying_work/vanilla_postgres/postgres/src/common/brotli/c/enc/dictionary_hash.c -o CMakeFiles/brotlienc.dir/c/enc/dictionary_hash.c.s
+	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/daniela/Desktop/research_work/final_qualifying_work/brotli_into_postgres/src/common/brotli/c/enc/dictionary_hash.c -o CMakeFiles/brotlienc.dir/c/enc/dictionary_hash.c.s
 
 CMakeFiles/brotlienc.dir/c/enc/encode.c.o: CMakeFiles/brotlienc.dir/flags.make
 CMakeFiles/brotlienc.dir/c/enc/encode.c.o: c/enc/encode.c
 CMakeFiles/brotlienc.dir/c/enc/encode.c.o: CMakeFiles/brotlienc.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/daniela/Desktop/research_work/final_qualifying_work/vanilla_postgres/postgres/src/common/brotli/CMakeFiles --progress-num=$(CMAKE_PROGRESS_12) "Building C object CMakeFiles/brotlienc.dir/c/enc/encode.c.o"
-	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/brotlienc.dir/c/enc/encode.c.o -MF CMakeFiles/brotlienc.dir/c/enc/encode.c.o.d -o CMakeFiles/brotlienc.dir/c/enc/encode.c.o -c /Users/daniela/Desktop/research_work/final_qualifying_work/vanilla_postgres/postgres/src/common/brotli/c/enc/encode.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/daniela/Desktop/research_work/final_qualifying_work/brotli_into_postgres/src/common/brotli/CMakeFiles --progress-num=$(CMAKE_PROGRESS_12) "Building C object CMakeFiles/brotlienc.dir/c/enc/encode.c.o"
+	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/brotlienc.dir/c/enc/encode.c.o -MF CMakeFiles/brotlienc.dir/c/enc/encode.c.o.d -o CMakeFiles/brotlienc.dir/c/enc/encode.c.o -c /Users/daniela/Desktop/research_work/final_qualifying_work/brotli_into_postgres/src/common/brotli/c/enc/encode.c
 
 CMakeFiles/brotlienc.dir/c/enc/encode.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/brotlienc.dir/c/enc/encode.c.i"
-	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/daniela/Desktop/research_work/final_qualifying_work/vanilla_postgres/postgres/src/common/brotli/c/enc/encode.c > CMakeFiles/brotlienc.dir/c/enc/encode.c.i
+	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/daniela/Desktop/research_work/final_qualifying_work/brotli_into_postgres/src/common/brotli/c/enc/encode.c > CMakeFiles/brotlienc.dir/c/enc/encode.c.i
 
 CMakeFiles/brotlienc.dir/c/enc/encode.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/brotlienc.dir/c/enc/encode.c.s"
-	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/daniela/Desktop/research_work/final_qualifying_work/vanilla_postgres/postgres/src/common/brotli/c/enc/encode.c -o CMakeFiles/brotlienc.dir/c/enc/encode.c.s
+	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/daniela/Desktop/research_work/final_qualifying_work/brotli_into_postgres/src/common/brotli/c/enc/encode.c -o CMakeFiles/brotlienc.dir/c/enc/encode.c.s
 
 CMakeFiles/brotlienc.dir/c/enc/encoder_dict.c.o: CMakeFiles/brotlienc.dir/flags.make
 CMakeFiles/brotlienc.dir/c/enc/encoder_dict.c.o: c/enc/encoder_dict.c
 CMakeFiles/brotlienc.dir/c/enc/encoder_dict.c.o: CMakeFiles/brotlienc.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/daniela/Desktop/research_work/final_qualifying_work/vanilla_postgres/postgres/src/common/brotli/CMakeFiles --progress-num=$(CMAKE_PROGRESS_13) "Building C object CMakeFiles/brotlienc.dir/c/enc/encoder_dict.c.o"
-	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/brotlienc.dir/c/enc/encoder_dict.c.o -MF CMakeFiles/brotlienc.dir/c/enc/encoder_dict.c.o.d -o CMakeFiles/brotlienc.dir/c/enc/encoder_dict.c.o -c /Users/daniela/Desktop/research_work/final_qualifying_work/vanilla_postgres/postgres/src/common/brotli/c/enc/encoder_dict.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/daniela/Desktop/research_work/final_qualifying_work/brotli_into_postgres/src/common/brotli/CMakeFiles --progress-num=$(CMAKE_PROGRESS_13) "Building C object CMakeFiles/brotlienc.dir/c/enc/encoder_dict.c.o"
+	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/brotlienc.dir/c/enc/encoder_dict.c.o -MF CMakeFiles/brotlienc.dir/c/enc/encoder_dict.c.o.d -o CMakeFiles/brotlienc.dir/c/enc/encoder_dict.c.o -c /Users/daniela/Desktop/research_work/final_qualifying_work/brotli_into_postgres/src/common/brotli/c/enc/encoder_dict.c
 
 CMakeFiles/brotlienc.dir/c/enc/encoder_dict.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/brotlienc.dir/c/enc/encoder_dict.c.i"
-	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/daniela/Desktop/research_work/final_qualifying_work/vanilla_postgres/postgres/src/common/brotli/c/enc/encoder_dict.c > CMakeFiles/brotlienc.dir/c/enc/encoder_dict.c.i
+	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/daniela/Desktop/research_work/final_qualifying_work/brotli_into_postgres/src/common/brotli/c/enc/encoder_dict.c > CMakeFiles/brotlienc.dir/c/enc/encoder_dict.c.i
 
 CMakeFiles/brotlienc.dir/c/enc/encoder_dict.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/brotlienc.dir/c/enc/encoder_dict.c.s"
-	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/daniela/Desktop/research_work/final_qualifying_work/vanilla_postgres/postgres/src/common/brotli/c/enc/encoder_dict.c -o CMakeFiles/brotlienc.dir/c/enc/encoder_dict.c.s
+	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/daniela/Desktop/research_work/final_qualifying_work/brotli_into_postgres/src/common/brotli/c/enc/encoder_dict.c -o CMakeFiles/brotlienc.dir/c/enc/encoder_dict.c.s
 
 CMakeFiles/brotlienc.dir/c/enc/entropy_encode.c.o: CMakeFiles/brotlienc.dir/flags.make
 CMakeFiles/brotlienc.dir/c/enc/entropy_encode.c.o: c/enc/entropy_encode.c
 CMakeFiles/brotlienc.dir/c/enc/entropy_encode.c.o: CMakeFiles/brotlienc.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/daniela/Desktop/research_work/final_qualifying_work/vanilla_postgres/postgres/src/common/brotli/CMakeFiles --progress-num=$(CMAKE_PROGRESS_14) "Building C object CMakeFiles/brotlienc.dir/c/enc/entropy_encode.c.o"
-	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/brotlienc.dir/c/enc/entropy_encode.c.o -MF CMakeFiles/brotlienc.dir/c/enc/entropy_encode.c.o.d -o CMakeFiles/brotlienc.dir/c/enc/entropy_encode.c.o -c /Users/daniela/Desktop/research_work/final_qualifying_work/vanilla_postgres/postgres/src/common/brotli/c/enc/entropy_encode.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/daniela/Desktop/research_work/final_qualifying_work/brotli_into_postgres/src/common/brotli/CMakeFiles --progress-num=$(CMAKE_PROGRESS_14) "Building C object CMakeFiles/brotlienc.dir/c/enc/entropy_encode.c.o"
+	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/brotlienc.dir/c/enc/entropy_encode.c.o -MF CMakeFiles/brotlienc.dir/c/enc/entropy_encode.c.o.d -o CMakeFiles/brotlienc.dir/c/enc/entropy_encode.c.o -c /Users/daniela/Desktop/research_work/final_qualifying_work/brotli_into_postgres/src/common/brotli/c/enc/entropy_encode.c
 
 CMakeFiles/brotlienc.dir/c/enc/entropy_encode.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/brotlienc.dir/c/enc/entropy_encode.c.i"
-	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/daniela/Desktop/research_work/final_qualifying_work/vanilla_postgres/postgres/src/common/brotli/c/enc/entropy_encode.c > CMakeFiles/brotlienc.dir/c/enc/entropy_encode.c.i
+	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/daniela/Desktop/research_work/final_qualifying_work/brotli_into_postgres/src/common/brotli/c/enc/entropy_encode.c > CMakeFiles/brotlienc.dir/c/enc/entropy_encode.c.i
 
 CMakeFiles/brotlienc.dir/c/enc/entropy_encode.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/brotlienc.dir/c/enc/entropy_encode.c.s"
-	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/daniela/Desktop/research_work/final_qualifying_work/vanilla_postgres/postgres/src/common/brotli/c/enc/entropy_encode.c -o CMakeFiles/brotlienc.dir/c/enc/entropy_encode.c.s
+	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/daniela/Desktop/research_work/final_qualifying_work/brotli_into_postgres/src/common/brotli/c/enc/entropy_encode.c -o CMakeFiles/brotlienc.dir/c/enc/entropy_encode.c.s
 
 CMakeFiles/brotlienc.dir/c/enc/fast_log.c.o: CMakeFiles/brotlienc.dir/flags.make
 CMakeFiles/brotlienc.dir/c/enc/fast_log.c.o: c/enc/fast_log.c
 CMakeFiles/brotlienc.dir/c/enc/fast_log.c.o: CMakeFiles/brotlienc.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/daniela/Desktop/research_work/final_qualifying_work/vanilla_postgres/postgres/src/common/brotli/CMakeFiles --progress-num=$(CMAKE_PROGRESS_15) "Building C object CMakeFiles/brotlienc.dir/c/enc/fast_log.c.o"
-	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/brotlienc.dir/c/enc/fast_log.c.o -MF CMakeFiles/brotlienc.dir/c/enc/fast_log.c.o.d -o CMakeFiles/brotlienc.dir/c/enc/fast_log.c.o -c /Users/daniela/Desktop/research_work/final_qualifying_work/vanilla_postgres/postgres/src/common/brotli/c/enc/fast_log.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/daniela/Desktop/research_work/final_qualifying_work/brotli_into_postgres/src/common/brotli/CMakeFiles --progress-num=$(CMAKE_PROGRESS_15) "Building C object CMakeFiles/brotlienc.dir/c/enc/fast_log.c.o"
+	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/brotlienc.dir/c/enc/fast_log.c.o -MF CMakeFiles/brotlienc.dir/c/enc/fast_log.c.o.d -o CMakeFiles/brotlienc.dir/c/enc/fast_log.c.o -c /Users/daniela/Desktop/research_work/final_qualifying_work/brotli_into_postgres/src/common/brotli/c/enc/fast_log.c
 
 CMakeFiles/brotlienc.dir/c/enc/fast_log.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/brotlienc.dir/c/enc/fast_log.c.i"
-	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/daniela/Desktop/research_work/final_qualifying_work/vanilla_postgres/postgres/src/common/brotli/c/enc/fast_log.c > CMakeFiles/brotlienc.dir/c/enc/fast_log.c.i
+	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/daniela/Desktop/research_work/final_qualifying_work/brotli_into_postgres/src/common/brotli/c/enc/fast_log.c > CMakeFiles/brotlienc.dir/c/enc/fast_log.c.i
 
 CMakeFiles/brotlienc.dir/c/enc/fast_log.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/brotlienc.dir/c/enc/fast_log.c.s"
-	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/daniela/Desktop/research_work/final_qualifying_work/vanilla_postgres/postgres/src/common/brotli/c/enc/fast_log.c -o CMakeFiles/brotlienc.dir/c/enc/fast_log.c.s
+	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/daniela/Desktop/research_work/final_qualifying_work/brotli_into_postgres/src/common/brotli/c/enc/fast_log.c -o CMakeFiles/brotlienc.dir/c/enc/fast_log.c.s
 
 CMakeFiles/brotlienc.dir/c/enc/histogram.c.o: CMakeFiles/brotlienc.dir/flags.make
 CMakeFiles/brotlienc.dir/c/enc/histogram.c.o: c/enc/histogram.c
 CMakeFiles/brotlienc.dir/c/enc/histogram.c.o: CMakeFiles/brotlienc.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/daniela/Desktop/research_work/final_qualifying_work/vanilla_postgres/postgres/src/common/brotli/CMakeFiles --progress-num=$(CMAKE_PROGRESS_16) "Building C object CMakeFiles/brotlienc.dir/c/enc/histogram.c.o"
-	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/brotlienc.dir/c/enc/histogram.c.o -MF CMakeFiles/brotlienc.dir/c/enc/histogram.c.o.d -o CMakeFiles/brotlienc.dir/c/enc/histogram.c.o -c /Users/daniela/Desktop/research_work/final_qualifying_work/vanilla_postgres/postgres/src/common/brotli/c/enc/histogram.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/daniela/Desktop/research_work/final_qualifying_work/brotli_into_postgres/src/common/brotli/CMakeFiles --progress-num=$(CMAKE_PROGRESS_16) "Building C object CMakeFiles/brotlienc.dir/c/enc/histogram.c.o"
+	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/brotlienc.dir/c/enc/histogram.c.o -MF CMakeFiles/brotlienc.dir/c/enc/histogram.c.o.d -o CMakeFiles/brotlienc.dir/c/enc/histogram.c.o -c /Users/daniela/Desktop/research_work/final_qualifying_work/brotli_into_postgres/src/common/brotli/c/enc/histogram.c
 
 CMakeFiles/brotlienc.dir/c/enc/histogram.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/brotlienc.dir/c/enc/histogram.c.i"
-	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/daniela/Desktop/research_work/final_qualifying_work/vanilla_postgres/postgres/src/common/brotli/c/enc/histogram.c > CMakeFiles/brotlienc.dir/c/enc/histogram.c.i
+	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/daniela/Desktop/research_work/final_qualifying_work/brotli_into_postgres/src/common/brotli/c/enc/histogram.c > CMakeFiles/brotlienc.dir/c/enc/histogram.c.i
 
 CMakeFiles/brotlienc.dir/c/enc/histogram.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/brotlienc.dir/c/enc/histogram.c.s"
-	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/daniela/Desktop/research_work/final_qualifying_work/vanilla_postgres/postgres/src/common/brotli/c/enc/histogram.c -o CMakeFiles/brotlienc.dir/c/enc/histogram.c.s
+	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/daniela/Desktop/research_work/final_qualifying_work/brotli_into_postgres/src/common/brotli/c/enc/histogram.c -o CMakeFiles/brotlienc.dir/c/enc/histogram.c.s
 
 CMakeFiles/brotlienc.dir/c/enc/literal_cost.c.o: CMakeFiles/brotlienc.dir/flags.make
 CMakeFiles/brotlienc.dir/c/enc/literal_cost.c.o: c/enc/literal_cost.c
 CMakeFiles/brotlienc.dir/c/enc/literal_cost.c.o: CMakeFiles/brotlienc.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/daniela/Desktop/research_work/final_qualifying_work/vanilla_postgres/postgres/src/common/brotli/CMakeFiles --progress-num=$(CMAKE_PROGRESS_17) "Building C object CMakeFiles/brotlienc.dir/c/enc/literal_cost.c.o"
-	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/brotlienc.dir/c/enc/literal_cost.c.o -MF CMakeFiles/brotlienc.dir/c/enc/literal_cost.c.o.d -o CMakeFiles/brotlienc.dir/c/enc/literal_cost.c.o -c /Users/daniela/Desktop/research_work/final_qualifying_work/vanilla_postgres/postgres/src/common/brotli/c/enc/literal_cost.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/daniela/Desktop/research_work/final_qualifying_work/brotli_into_postgres/src/common/brotli/CMakeFiles --progress-num=$(CMAKE_PROGRESS_17) "Building C object CMakeFiles/brotlienc.dir/c/enc/literal_cost.c.o"
+	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/brotlienc.dir/c/enc/literal_cost.c.o -MF CMakeFiles/brotlienc.dir/c/enc/literal_cost.c.o.d -o CMakeFiles/brotlienc.dir/c/enc/literal_cost.c.o -c /Users/daniela/Desktop/research_work/final_qualifying_work/brotli_into_postgres/src/common/brotli/c/enc/literal_cost.c
 
 CMakeFiles/brotlienc.dir/c/enc/literal_cost.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/brotlienc.dir/c/enc/literal_cost.c.i"
-	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/daniela/Desktop/research_work/final_qualifying_work/vanilla_postgres/postgres/src/common/brotli/c/enc/literal_cost.c > CMakeFiles/brotlienc.dir/c/enc/literal_cost.c.i
+	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/daniela/Desktop/research_work/final_qualifying_work/brotli_into_postgres/src/common/brotli/c/enc/literal_cost.c > CMakeFiles/brotlienc.dir/c/enc/literal_cost.c.i
 
 CMakeFiles/brotlienc.dir/c/enc/literal_cost.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/brotlienc.dir/c/enc/literal_cost.c.s"
-	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/daniela/Desktop/research_work/final_qualifying_work/vanilla_postgres/postgres/src/common/brotli/c/enc/literal_cost.c -o CMakeFiles/brotlienc.dir/c/enc/literal_cost.c.s
+	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/daniela/Desktop/research_work/final_qualifying_work/brotli_into_postgres/src/common/brotli/c/enc/literal_cost.c -o CMakeFiles/brotlienc.dir/c/enc/literal_cost.c.s
 
 CMakeFiles/brotlienc.dir/c/enc/memory.c.o: CMakeFiles/brotlienc.dir/flags.make
 CMakeFiles/brotlienc.dir/c/enc/memory.c.o: c/enc/memory.c
 CMakeFiles/brotlienc.dir/c/enc/memory.c.o: CMakeFiles/brotlienc.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/daniela/Desktop/research_work/final_qualifying_work/vanilla_postgres/postgres/src/common/brotli/CMakeFiles --progress-num=$(CMAKE_PROGRESS_18) "Building C object CMakeFiles/brotlienc.dir/c/enc/memory.c.o"
-	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/brotlienc.dir/c/enc/memory.c.o -MF CMakeFiles/brotlienc.dir/c/enc/memory.c.o.d -o CMakeFiles/brotlienc.dir/c/enc/memory.c.o -c /Users/daniela/Desktop/research_work/final_qualifying_work/vanilla_postgres/postgres/src/common/brotli/c/enc/memory.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/daniela/Desktop/research_work/final_qualifying_work/brotli_into_postgres/src/common/brotli/CMakeFiles --progress-num=$(CMAKE_PROGRESS_18) "Building C object CMakeFiles/brotlienc.dir/c/enc/memory.c.o"
+	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/brotlienc.dir/c/enc/memory.c.o -MF CMakeFiles/brotlienc.dir/c/enc/memory.c.o.d -o CMakeFiles/brotlienc.dir/c/enc/memory.c.o -c /Users/daniela/Desktop/research_work/final_qualifying_work/brotli_into_postgres/src/common/brotli/c/enc/memory.c
 
 CMakeFiles/brotlienc.dir/c/enc/memory.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/brotlienc.dir/c/enc/memory.c.i"
-	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/daniela/Desktop/research_work/final_qualifying_work/vanilla_postgres/postgres/src/common/brotli/c/enc/memory.c > CMakeFiles/brotlienc.dir/c/enc/memory.c.i
+	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/daniela/Desktop/research_work/final_qualifying_work/brotli_into_postgres/src/common/brotli/c/enc/memory.c > CMakeFiles/brotlienc.dir/c/enc/memory.c.i
 
 CMakeFiles/brotlienc.dir/c/enc/memory.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/brotlienc.dir/c/enc/memory.c.s"
-	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/daniela/Desktop/research_work/final_qualifying_work/vanilla_postgres/postgres/src/common/brotli/c/enc/memory.c -o CMakeFiles/brotlienc.dir/c/enc/memory.c.s
+	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/daniela/Desktop/research_work/final_qualifying_work/brotli_into_postgres/src/common/brotli/c/enc/memory.c -o CMakeFiles/brotlienc.dir/c/enc/memory.c.s
 
 CMakeFiles/brotlienc.dir/c/enc/metablock.c.o: CMakeFiles/brotlienc.dir/flags.make
 CMakeFiles/brotlienc.dir/c/enc/metablock.c.o: c/enc/metablock.c
 CMakeFiles/brotlienc.dir/c/enc/metablock.c.o: CMakeFiles/brotlienc.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/daniela/Desktop/research_work/final_qualifying_work/vanilla_postgres/postgres/src/common/brotli/CMakeFiles --progress-num=$(CMAKE_PROGRESS_19) "Building C object CMakeFiles/brotlienc.dir/c/enc/metablock.c.o"
-	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/brotlienc.dir/c/enc/metablock.c.o -MF CMakeFiles/brotlienc.dir/c/enc/metablock.c.o.d -o CMakeFiles/brotlienc.dir/c/enc/metablock.c.o -c /Users/daniela/Desktop/research_work/final_qualifying_work/vanilla_postgres/postgres/src/common/brotli/c/enc/metablock.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/daniela/Desktop/research_work/final_qualifying_work/brotli_into_postgres/src/common/brotli/CMakeFiles --progress-num=$(CMAKE_PROGRESS_19) "Building C object CMakeFiles/brotlienc.dir/c/enc/metablock.c.o"
+	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/brotlienc.dir/c/enc/metablock.c.o -MF CMakeFiles/brotlienc.dir/c/enc/metablock.c.o.d -o CMakeFiles/brotlienc.dir/c/enc/metablock.c.o -c /Users/daniela/Desktop/research_work/final_qualifying_work/brotli_into_postgres/src/common/brotli/c/enc/metablock.c
 
 CMakeFiles/brotlienc.dir/c/enc/metablock.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/brotlienc.dir/c/enc/metablock.c.i"
-	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/daniela/Desktop/research_work/final_qualifying_work/vanilla_postgres/postgres/src/common/brotli/c/enc/metablock.c > CMakeFiles/brotlienc.dir/c/enc/metablock.c.i
+	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/daniela/Desktop/research_work/final_qualifying_work/brotli_into_postgres/src/common/brotli/c/enc/metablock.c > CMakeFiles/brotlienc.dir/c/enc/metablock.c.i
 
 CMakeFiles/brotlienc.dir/c/enc/metablock.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/brotlienc.dir/c/enc/metablock.c.s"
-	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/daniela/Desktop/research_work/final_qualifying_work/vanilla_postgres/postgres/src/common/brotli/c/enc/metablock.c -o CMakeFiles/brotlienc.dir/c/enc/metablock.c.s
+	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/daniela/Desktop/research_work/final_qualifying_work/brotli_into_postgres/src/common/brotli/c/enc/metablock.c -o CMakeFiles/brotlienc.dir/c/enc/metablock.c.s
 
 CMakeFiles/brotlienc.dir/c/enc/static_dict.c.o: CMakeFiles/brotlienc.dir/flags.make
 CMakeFiles/brotlienc.dir/c/enc/static_dict.c.o: c/enc/static_dict.c
 CMakeFiles/brotlienc.dir/c/enc/static_dict.c.o: CMakeFiles/brotlienc.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/daniela/Desktop/research_work/final_qualifying_work/vanilla_postgres/postgres/src/common/brotli/CMakeFiles --progress-num=$(CMAKE_PROGRESS_20) "Building C object CMakeFiles/brotlienc.dir/c/enc/static_dict.c.o"
-	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/brotlienc.dir/c/enc/static_dict.c.o -MF CMakeFiles/brotlienc.dir/c/enc/static_dict.c.o.d -o CMakeFiles/brotlienc.dir/c/enc/static_dict.c.o -c /Users/daniela/Desktop/research_work/final_qualifying_work/vanilla_postgres/postgres/src/common/brotli/c/enc/static_dict.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/daniela/Desktop/research_work/final_qualifying_work/brotli_into_postgres/src/common/brotli/CMakeFiles --progress-num=$(CMAKE_PROGRESS_20) "Building C object CMakeFiles/brotlienc.dir/c/enc/static_dict.c.o"
+	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/brotlienc.dir/c/enc/static_dict.c.o -MF CMakeFiles/brotlienc.dir/c/enc/static_dict.c.o.d -o CMakeFiles/brotlienc.dir/c/enc/static_dict.c.o -c /Users/daniela/Desktop/research_work/final_qualifying_work/brotli_into_postgres/src/common/brotli/c/enc/static_dict.c
 
 CMakeFiles/brotlienc.dir/c/enc/static_dict.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/brotlienc.dir/c/enc/static_dict.c.i"
-	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/daniela/Desktop/research_work/final_qualifying_work/vanilla_postgres/postgres/src/common/brotli/c/enc/static_dict.c > CMakeFiles/brotlienc.dir/c/enc/static_dict.c.i
+	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/daniela/Desktop/research_work/final_qualifying_work/brotli_into_postgres/src/common/brotli/c/enc/static_dict.c > CMakeFiles/brotlienc.dir/c/enc/static_dict.c.i
 
 CMakeFiles/brotlienc.dir/c/enc/static_dict.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/brotlienc.dir/c/enc/static_dict.c.s"
-	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/daniela/Desktop/research_work/final_qualifying_work/vanilla_postgres/postgres/src/common/brotli/c/enc/static_dict.c -o CMakeFiles/brotlienc.dir/c/enc/static_dict.c.s
+	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/daniela/Desktop/research_work/final_qualifying_work/brotli_into_postgres/src/common/brotli/c/enc/static_dict.c -o CMakeFiles/brotlienc.dir/c/enc/static_dict.c.s
 
 CMakeFiles/brotlienc.dir/c/enc/utf8_util.c.o: CMakeFiles/brotlienc.dir/flags.make
 CMakeFiles/brotlienc.dir/c/enc/utf8_util.c.o: c/enc/utf8_util.c
 CMakeFiles/brotlienc.dir/c/enc/utf8_util.c.o: CMakeFiles/brotlienc.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/daniela/Desktop/research_work/final_qualifying_work/vanilla_postgres/postgres/src/common/brotli/CMakeFiles --progress-num=$(CMAKE_PROGRESS_21) "Building C object CMakeFiles/brotlienc.dir/c/enc/utf8_util.c.o"
-	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/brotlienc.dir/c/enc/utf8_util.c.o -MF CMakeFiles/brotlienc.dir/c/enc/utf8_util.c.o.d -o CMakeFiles/brotlienc.dir/c/enc/utf8_util.c.o -c /Users/daniela/Desktop/research_work/final_qualifying_work/vanilla_postgres/postgres/src/common/brotli/c/enc/utf8_util.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/daniela/Desktop/research_work/final_qualifying_work/brotli_into_postgres/src/common/brotli/CMakeFiles --progress-num=$(CMAKE_PROGRESS_21) "Building C object CMakeFiles/brotlienc.dir/c/enc/utf8_util.c.o"
+	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/brotlienc.dir/c/enc/utf8_util.c.o -MF CMakeFiles/brotlienc.dir/c/enc/utf8_util.c.o.d -o CMakeFiles/brotlienc.dir/c/enc/utf8_util.c.o -c /Users/daniela/Desktop/research_work/final_qualifying_work/brotli_into_postgres/src/common/brotli/c/enc/utf8_util.c
 
 CMakeFiles/brotlienc.dir/c/enc/utf8_util.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/brotlienc.dir/c/enc/utf8_util.c.i"
-	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/daniela/Desktop/research_work/final_qualifying_work/vanilla_postgres/postgres/src/common/brotli/c/enc/utf8_util.c > CMakeFiles/brotlienc.dir/c/enc/utf8_util.c.i
+	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/daniela/Desktop/research_work/final_qualifying_work/brotli_into_postgres/src/common/brotli/c/enc/utf8_util.c > CMakeFiles/brotlienc.dir/c/enc/utf8_util.c.i
 
 CMakeFiles/brotlienc.dir/c/enc/utf8_util.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/brotlienc.dir/c/enc/utf8_util.c.s"
-	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/daniela/Desktop/research_work/final_qualifying_work/vanilla_postgres/postgres/src/common/brotli/c/enc/utf8_util.c -o CMakeFiles/brotlienc.dir/c/enc/utf8_util.c.s
+	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/daniela/Desktop/research_work/final_qualifying_work/brotli_into_postgres/src/common/brotli/c/enc/utf8_util.c -o CMakeFiles/brotlienc.dir/c/enc/utf8_util.c.s
 
 # Object files for target brotlienc
 brotlienc_OBJECTS = \
@@ -414,7 +414,7 @@ libbrotlienc.1.1.0.dylib: CMakeFiles/brotlienc.dir/c/enc/utf8_util.c.o
 libbrotlienc.1.1.0.dylib: CMakeFiles/brotlienc.dir/build.make
 libbrotlienc.1.1.0.dylib: libbrotlicommon.1.1.0.dylib
 libbrotlienc.1.1.0.dylib: CMakeFiles/brotlienc.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=/Users/daniela/Desktop/research_work/final_qualifying_work/vanilla_postgres/postgres/src/common/brotli/CMakeFiles --progress-num=$(CMAKE_PROGRESS_22) "Linking C shared library libbrotlienc.dylib"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=/Users/daniela/Desktop/research_work/final_qualifying_work/brotli_into_postgres/src/common/brotli/CMakeFiles --progress-num=$(CMAKE_PROGRESS_22) "Linking C shared library libbrotlienc.dylib"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/brotlienc.dir/link.txt --verbose=$(VERBOSE)
 	$(CMAKE_COMMAND) -E cmake_symlink_library libbrotlienc.1.1.0.dylib libbrotlienc.1.dylib libbrotlienc.dylib
 
@@ -433,6 +433,6 @@ CMakeFiles/brotlienc.dir/clean:
 .PHONY : CMakeFiles/brotlienc.dir/clean
 
 CMakeFiles/brotlienc.dir/depend:
-	cd /Users/daniela/Desktop/research_work/final_qualifying_work/vanilla_postgres/postgres/src/common/brotli && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /Users/daniela/Desktop/research_work/final_qualifying_work/vanilla_postgres/postgres/src/common/brotli /Users/daniela/Desktop/research_work/final_qualifying_work/vanilla_postgres/postgres/src/common/brotli /Users/daniela/Desktop/research_work/final_qualifying_work/vanilla_postgres/postgres/src/common/brotli /Users/daniela/Desktop/research_work/final_qualifying_work/vanilla_postgres/postgres/src/common/brotli /Users/daniela/Desktop/research_work/final_qualifying_work/vanilla_postgres/postgres/src/common/brotli/CMakeFiles/brotlienc.dir/DependInfo.cmake "--color=$(COLOR)"
+	cd /Users/daniela/Desktop/research_work/final_qualifying_work/brotli_into_postgres/src/common/brotli && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /Users/daniela/Desktop/research_work/final_qualifying_work/brotli_into_postgres/src/common/brotli /Users/daniela/Desktop/research_work/final_qualifying_work/brotli_into_postgres/src/common/brotli /Users/daniela/Desktop/research_work/final_qualifying_work/brotli_into_postgres/src/common/brotli /Users/daniela/Desktop/research_work/final_qualifying_work/brotli_into_postgres/src/common/brotli /Users/daniela/Desktop/research_work/final_qualifying_work/brotli_into_postgres/src/common/brotli/CMakeFiles/brotlienc.dir/DependInfo.cmake "--color=$(COLOR)"
 .PHONY : CMakeFiles/brotlienc.dir/depend
 

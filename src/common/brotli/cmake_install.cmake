@@ -1,4 +1,4 @@
-# Install script for directory: /Users/daniela/Desktop/research_work/final_qualifying_work/vanilla_postgres/postgres/src/common/brotli
+# Install script for directory: /Users/daniela/Desktop/research_work/final_qualifying_work/brotli_into_postgres/src/common/brotli
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -45,5 +45,5 @@ endif()
 
 string(REPLACE ";" "\n" CMAKE_INSTALL_MANIFEST_CONTENT
        "${CMAKE_INSTALL_MANIFEST_FILES}")
-file(WRITE "/Users/daniela/Desktop/research_work/final_qualifying_work/vanilla_postgres/postgres/src/common/brotli/${CMAKE_INSTALL_MANIFEST}"
+file(WRITE "/Users/daniela/Desktop/research_work/final_qualifying_work/brotli_into_postgres/src/common/brotli/${CMAKE_INSTALL_MANIFEST}"
      "${CMAKE_INSTALL_MANIFEST_CONTENT}")

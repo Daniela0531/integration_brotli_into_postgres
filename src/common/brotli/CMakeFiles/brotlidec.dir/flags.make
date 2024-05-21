@@ -4,9 +4,9 @@
 # compile C with /Library/Developer/CommandLineTools/usr/bin/cc
 C_DEFINES = -DBROTLIDEC_SHARED_COMPILATION -DBROTLI_SHARED_COMPILATION -DOS_MACOSX
 
-C_INCLUDES = -I/Users/daniela/Desktop/research_work/final_qualifying_work/vanilla_postgres/postgres/src/common/brotli/c/include
+C_INCLUDES = -I/Users/daniela/Desktop/research_work/final_qualifying_work/brotli_into_postgres/src/common/brotli/c/include
 
-C_FLAGSarm64 = -O3 -DNDEBUG -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX12.1.sdk -mmacosx-version-min=11.6 -fPIC
+C_FLAGSarm64 = -O3 -DNDEBUG -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX14.4.sdk -fPIC
 
-C_FLAGS = -O3 -DNDEBUG -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX12.1.sdk -mmacosx-version-min=11.6 -fPIC
+C_FLAGS = -O3 -DNDEBUG -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX14.4.sdk -fPIC
 

@@ -1,11 +1,11 @@
 To start:
-./configure --without-icu --prefix=/Users/daniela/Desktop/research_work/vanilla_postgres/postgres/install
-export PATH=$PATH:/Users/daniela/Desktop/research_work/vanilla_postgres/postgres/install/bin
+./configure --without-icu --prefix=/Users/daniela/Desktop/research_work/final_qualifying_work/brotli_into_postgres/install
+export PATH=$PATH:/Users/daniela/Desktop/research_work/final_qualifying_work/brotli_into_postgres/install/bin
 make all
 make install
 mkdir pgdata
-initdb -D /Users/daniela/Desktop/research_work/vanilla_postgres/postgres/pgdata
-pg_ctl -D /Users/daniela/Desktop/research_work/vanilla_postgres/postgres/pgdata -l logfile start
+initdb -D /Users/daniela/Desktop/research_work/final_qualifying_work/brotli_into_postgres/pgdata
+pg_ctl -D /Users/daniela/Desktop/research_work/final_qualifying_work/brotli_into_postgres/pgdata -l logfile start
 psql -d postgres
 
 To restart:
@@ -18,7 +18,8 @@ rm -rf lib/
 rm -rf share/
 
 
-
+test command:
+CREATE TABLESPACE my_tablespace LOCATION '/Users/daniela/Desktop/my_tablespace' WITH (compression=true);
 
 
 PostgreSQL Database Management System

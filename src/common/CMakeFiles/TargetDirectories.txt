@@ -1,0 +1,6 @@
+/Users/daniela/Desktop/research_work/final_qualifying_work/brotli_into_postgres/src/common/CMakeFiles/brotlicommon.dir
+/Users/daniela/Desktop/research_work/final_qualifying_work/brotli_into_postgres/src/common/CMakeFiles/brotlidec.dir
+/Users/daniela/Desktop/research_work/final_qualifying_work/brotli_into_postgres/src/common/CMakeFiles/brotlienc.dir
+/Users/daniela/Desktop/research_work/final_qualifying_work/brotli_into_postgres/src/common/CMakeFiles/brotli.dir
+/Users/daniela/Desktop/research_work/final_qualifying_work/brotli_into_postgres/src/common/CMakeFiles/edit_cache.dir
+/Users/daniela/Desktop/research_work/final_qualifying_work/brotli_into_postgres/src/common/CMakeFiles/rebuild_cache.dir

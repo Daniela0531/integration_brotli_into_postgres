@@ -54,10 +54,10 @@ RM = /opt/homebrew/Cellar/cmake/3.29.0/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /Users/daniela/Desktop/research_work/final_qualifying_work/vanilla_postgres/postgres/src/common/brotli
+CMAKE_SOURCE_DIR = /Users/daniela/Desktop/research_work/final_qualifying_work/brotli_into_postgres/src/common/brotli
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /Users/daniela/Desktop/research_work/final_qualifying_work/vanilla_postgres/postgres/src/common/brotli
+CMAKE_BINARY_DIR = /Users/daniela/Desktop/research_work/final_qualifying_work/brotli_into_postgres/src/common/brotli
 
 #=============================================================================
 # Directory level rules for the build root directory
@@ -87,14 +87,14 @@ clean: CMakeFiles/brotli.dir/clean
 CMakeFiles/brotlicommon.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/brotlicommon.dir/build.make CMakeFiles/brotlicommon.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/brotlicommon.dir/build.make CMakeFiles/brotlicommon.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/Users/daniela/Desktop/research_work/final_qualifying_work/vanilla_postgres/postgres/src/common/brotli/CMakeFiles --progress-num=3,4,5,6,7,8,9 "Built target brotlicommon"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/Users/daniela/Desktop/research_work/final_qualifying_work/brotli_into_postgres/src/common/brotli/CMakeFiles --progress-num=3,4,5,6,7,8,9 "Built target brotlicommon"
 .PHONY : CMakeFiles/brotlicommon.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/brotlicommon.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/daniela/Desktop/research_work/final_qualifying_work/vanilla_postgres/postgres/src/common/brotli/CMakeFiles 7
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/daniela/Desktop/research_work/final_qualifying_work/brotli_into_postgres/src/common/brotli/CMakeFiles 7
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/brotlicommon.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/daniela/Desktop/research_work/final_qualifying_work/vanilla_postgres/postgres/src/common/brotli/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/daniela/Desktop/research_work/final_qualifying_work/brotli_into_postgres/src/common/brotli/CMakeFiles 0
 .PHONY : CMakeFiles/brotlicommon.dir/rule
 
 # Convenience name for target.
@@ -113,14 +113,14 @@ CMakeFiles/brotlicommon.dir/clean:
 CMakeFiles/brotlidec.dir/all: CMakeFiles/brotlicommon.dir/all
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/brotlidec.dir/build.make CMakeFiles/brotlidec.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/brotlidec.dir/build.make CMakeFiles/brotlidec.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/Users/daniela/Desktop/research_work/final_qualifying_work/vanilla_postgres/postgres/src/common/brotli/CMakeFiles --progress-num=10,11,12,13,14 "Built target brotlidec"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/Users/daniela/Desktop/research_work/final_qualifying_work/brotli_into_postgres/src/common/brotli/CMakeFiles --progress-num=10,11,12,13,14 "Built target brotlidec"
 .PHONY : CMakeFiles/brotlidec.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/brotlidec.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/daniela/Desktop/research_work/final_qualifying_work/vanilla_postgres/postgres/src/common/brotli/CMakeFiles 12
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/daniela/Desktop/research_work/final_qualifying_work/brotli_into_postgres/src/common/brotli/CMakeFiles 12
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/brotlidec.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/daniela/Desktop/research_work/final_qualifying_work/vanilla_postgres/postgres/src/common/brotli/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/daniela/Desktop/research_work/final_qualifying_work/brotli_into_postgres/src/common/brotli/CMakeFiles 0
 .PHONY : CMakeFiles/brotlidec.dir/rule
 
 # Convenience name for target.
@@ -139,14 +139,14 @@ CMakeFiles/brotlidec.dir/clean:
 CMakeFiles/brotlienc.dir/all: CMakeFiles/brotlicommon.dir/all
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/brotlienc.dir/build.make CMakeFiles/brotlienc.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/brotlienc.dir/build.make CMakeFiles/brotlienc.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/Users/daniela/Desktop/research_work/final_qualifying_work/vanilla_postgres/postgres/src/common/brotli/CMakeFiles --progress-num=15,16,17,18,19,20,21,22,23,24,25,26,27,28,29,30,31,32,33,34,35,36 "Built target brotlienc"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/Users/daniela/Desktop/research_work/final_qualifying_work/brotli_into_postgres/src/common/brotli/CMakeFiles --progress-num=15,16,17,18,19,20,21,22,23,24,25,26,27,28,29,30,31,32,33,34,35,36 "Built target brotlienc"
 .PHONY : CMakeFiles/brotlienc.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/brotlienc.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/daniela/Desktop/research_work/final_qualifying_work/vanilla_postgres/postgres/src/common/brotli/CMakeFiles 29
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/daniela/Desktop/research_work/final_qualifying_work/brotli_into_postgres/src/common/brotli/CMakeFiles 29
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/brotlienc.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/daniela/Desktop/research_work/final_qualifying_work/vanilla_postgres/postgres/src/common/brotli/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/daniela/Desktop/research_work/final_qualifying_work/brotli_into_postgres/src/common/brotli/CMakeFiles 0
 .PHONY : CMakeFiles/brotlienc.dir/rule
 
 # Convenience name for target.
@@ -162,19 +162,19 @@ CMakeFiles/brotlienc.dir/clean:
 # Target rules for target CMakeFiles/brotli.dir
 
 # All Build rule for target.
-CMakeFiles/brotli.dir/all: CMakeFiles/brotlicommon.dir/all
 CMakeFiles/brotli.dir/all: CMakeFiles/brotlidec.dir/all
 CMakeFiles/brotli.dir/all: CMakeFiles/brotlienc.dir/all
+CMakeFiles/brotli.dir/all: CMakeFiles/brotlicommon.dir/all
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/brotli.dir/build.make CMakeFiles/brotli.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/brotli.dir/build.make CMakeFiles/brotli.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/Users/daniela/Desktop/research_work/final_qualifying_work/vanilla_postgres/postgres/src/common/brotli/CMakeFiles --progress-num=1,2 "Built target brotli"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/Users/daniela/Desktop/research_work/final_qualifying_work/brotli_into_postgres/src/common/brotli/CMakeFiles --progress-num=1,2 "Built target brotli"
 .PHONY : CMakeFiles/brotli.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/brotli.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/daniela/Desktop/research_work/final_qualifying_work/vanilla_postgres/postgres/src/common/brotli/CMakeFiles 36
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/daniela/Desktop/research_work/final_qualifying_work/brotli_into_postgres/src/common/brotli/CMakeFiles 36
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/brotli.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/daniela/Desktop/research_work/final_qualifying_work/vanilla_postgres/postgres/src/common/brotli/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/daniela/Desktop/research_work/final_qualifying_work/brotli_into_postgres/src/common/brotli/CMakeFiles 0
 .PHONY : CMakeFiles/brotli.dir/rule
 
 # Convenience name for target.
