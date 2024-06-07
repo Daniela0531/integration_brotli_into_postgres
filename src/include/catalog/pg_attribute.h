@@ -124,7 +124,7 @@ CATALOG(pg_attribute,1249,AttributeRelationId) BKI_BOOTSTRAP BKI_ROWTYPE_OID(75,
 	 * However, this field is ignored whenever attstorage does not allow
 	 * compression.
 	 */
-	char		attcompression BKI_DEFAULT('\0');
+	char		attcompression BKI_DEFAULT('\0'); 
 
 	/* This flag represents the "NOT NULL" constraint */
 	bool		attnotnull;

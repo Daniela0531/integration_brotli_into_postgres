@@ -335,6 +335,14 @@ typedef enum StdRdOptIndexCleanup
 	STDRD_OPTION_VACUUM_INDEX_CLEANUP_ON,
 } StdRdOptIndexCleanup;
 
+/* compression types */
+typedef enum CompressionType
+{
+	COMPRESSION_OPTION_PGLZ = 0,
+	COMPRESSION_OPTION_LZ4,
+	COMPRESSION_OPTION_BROTLI,
+} CompressionType;
+ 
 typedef struct StdRdOptions
 {
 	int32		vl_len_;		/* varlena header (do not touch directly!) */

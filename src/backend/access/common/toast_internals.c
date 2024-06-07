@@ -56,7 +56,7 @@ toast_compress_datum(Datum value, char cmethod)
 
 	/* If the compression method is not valid, use the current default */
 	if (!CompressionMethodIsValid(cmethod))
-		cmethod = default_toast_compression;
+		cmethod = default_toast_compression; 
 
 	/*
 	 * Call appropriate compression routine for the compression method.
@@ -70,6 +70,10 @@ toast_compress_datum(Datum value, char cmethod)
 		case TOAST_LZ4_COMPRESSION:
 			tmp = lz4_compress_datum((const struct varlena *) value);
 			cmid = TOAST_LZ4_COMPRESSION_ID;
+			break;
+		case TOAST_BROTLI_COMPRESSION:
+			tmp = brotli_compress_datum((const struct varlena *) value);
+			cmid = TOAST_BROTLI_COMPRESSION_ID;
 			break;
 		default:
 			elog(ERROR, "invalid compression method %c", cmethod);

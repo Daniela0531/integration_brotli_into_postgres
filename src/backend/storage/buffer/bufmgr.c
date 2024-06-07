@@ -155,7 +155,7 @@ int			effective_io_concurrency = DEFAULT_EFFECTIVE_IO_CONCURRENCY;
  * Overridden by the tablespace setting of the same name.
  */
 int			maintenance_io_concurrency = DEFAULT_MAINTENANCE_IO_CONCURRENCY;
-
+ 
 /*
  * Limit on how many blocks should be handled in single I/O operations.
  * StartReadBuffers() callers should respect it, as should other operations

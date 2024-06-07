@@ -162,9 +162,9 @@ CMakeFiles/brotlienc.dir/clean:
 # Target rules for target CMakeFiles/brotli.dir
 
 # All Build rule for target.
+CMakeFiles/brotli.dir/all: CMakeFiles/brotlicommon.dir/all
 CMakeFiles/brotli.dir/all: CMakeFiles/brotlidec.dir/all
 CMakeFiles/brotli.dir/all: CMakeFiles/brotlienc.dir/all
-CMakeFiles/brotli.dir/all: CMakeFiles/brotlicommon.dir/all
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/brotli.dir/build.make CMakeFiles/brotli.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/brotli.dir/build.make CMakeFiles/brotli.dir/build
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/Users/daniela/Desktop/research_work/final_qualifying_work/brotli_into_postgres/src/common/brotli/CMakeFiles --progress-num=1,2 "Built target brotli"

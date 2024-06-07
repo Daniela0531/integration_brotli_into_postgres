@@ -456,7 +456,8 @@ static const struct config_enum_entry shared_memory_options[] = {
 };
 
 static const struct config_enum_entry default_toast_compression_options[] = {
-	{"pglz", TOAST_PGLZ_COMPRESSION, false},
+	// {"pglz", TOAST_PGLZ_COMPRESSION, false},
+	{"brotli", TOAST_BROTLI_COMPRESSION, false},
 #ifdef  USE_LZ4
 	{"lz4", TOAST_LZ4_COMPRESSION, false},
 #endif
@@ -3113,7 +3114,7 @@ struct config_int ConfigureNamesInt[] =
 		0, MAX_IO_CONCURRENCY,
 		check_effective_io_concurrency, NULL, NULL
 	},
-
+ 
 	{
 		{"maintenance_io_concurrency",
 			PGC_USERSET,
@@ -4783,7 +4784,8 @@ struct config_enum ConfigureNamesEnum[] =
 			NULL
 		},
 		&default_toast_compression,
-		TOAST_PGLZ_COMPRESSION,
+		// TOAST_PGLZ_COMPRESSION, // TODO my realization
+		TOAST_BROTLI_COMPRESSION,
 		default_toast_compression_options,
 		NULL, NULL, NULL
 	},

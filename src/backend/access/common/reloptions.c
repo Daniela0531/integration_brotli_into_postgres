@@ -93,15 +93,15 @@
 
 static relopt_bool boolRelOpts[] =
 {
-    {
-        {
-            "compression",
-            "Whether compress with brotli",
-            RELOPT_KIND_TABLESPACE,
-            AccessExclusiveLock
-        },
-        false
-    },
+    // {
+    //     {
+    //         "compression",
+    //         "Whether compress with brotli",
+    //         RELOPT_KIND_TABLESPACE,
+    //         AccessExclusiveLock
+    //     },
+    //     false
+    // },
     {
 		{
 			"autosummarize",
@@ -481,9 +481,19 @@ static relopt_real realRelOpts[] =
 	{{NULL}}
 };
 
+static relopt_enum_elt_def CompressionTypeValues[] =
+{
+	{"pglz", COMPRESSION_OPTION_PGLZ},
+	{"lz4", COMPRESSION_OPTION_LZ4},
+	{"brotli", COMPRESSION_OPTION_BROTLI},
+	{(const char *) NULL}		/* list terminator */
+}
+
 /* values from StdRdOptIndexCleanup */
 static relopt_enum_elt_def StdRdOptIndexCleanupValues[] =
 {
+	// don't know where put it //
+	// TODO //
 	{"auto", STDRD_OPTION_VACUUM_INDEX_CLEANUP_AUTO},
 	{"on", STDRD_OPTION_VACUUM_INDEX_CLEANUP_ON},
 	{"off", STDRD_OPTION_VACUUM_INDEX_CLEANUP_OFF},
@@ -516,6 +526,17 @@ static relopt_enum_elt_def viewCheckOptValues[] =
 
 static relopt_enum enumRelOpts[] =
 {
+	{
+        {
+            "compression",
+            "Wich type of compression to use",
+            RELOPT_KIND_TABLESPACE | RELOPT_KIND_HEAP | RELOPT_KIND_TOAST,
+            AccessExclusiveLock
+        },
+        CompressionTypeValues,
+		COMPRESSION_OPTION_PGLZ,
+		gettext_noop("Valid values are \"brotli\", \"pglz\", and \"lz4\".")
+    },
 	{
 		{
 			"vacuum_index_cleanup",
@@ -553,8 +574,28 @@ static relopt_enum enumRelOpts[] =
 	{{NULL}}
 };
 
+// relopt_gen	gen;
+// 	int			default_len;
+// 	bool		default_isnull;
+// 	validate_string_relopt validate_cb;
+// 	fill_string_relopt fill_cb;
+// 	char	   *default_val;
+
 static relopt_string stringRelOpts[] =
 {
+	// {
+    //     {
+    //         "compression",
+    //         "Type of compression",
+    //         RELOPT_KIND_TABLESPACE | RELOPT_KIND_HEAP | RELOPT_KIND_TOAST,
+    //         AccessExclusiveLock
+    //     },
+    //     0,
+	// 	false,
+	// 	NULL,
+	// 	NULL,
+	// 	"pglz"
+    // },
 	/* list terminator */
 	{{NULL}}
 };
@@ -1161,6 +1202,7 @@ add_local_string_reloption(local_relopts *relopts, const char *name,
  * Both oldOptions and the result are text arrays (or NULL for "default"),
  * but we declare them as Datums to avoid including array.h in reloptions.h.
  */
+
 Datum
 transformRelOptions(Datum oldOptions, List *defList, const char *namspace,
 					char *validnsps[], bool acceptOidsOff, bool isReset)
@@ -2098,8 +2140,8 @@ tablespace_reloptions(Datum reloptions, bool validate)
 		{"seq_page_cost", RELOPT_TYPE_REAL, offsetof(TableSpaceOpts, seq_page_cost)},
 		{"effective_io_concurrency", RELOPT_TYPE_INT, offsetof(TableSpaceOpts, effective_io_concurrency)},
 		{"maintenance_io_concurrency", RELOPT_TYPE_INT, offsetof(TableSpaceOpts, maintenance_io_concurrency)},
-        {"compression", RELOPT_TYPE_STRING, offsetof(TableSpaceOpts, compression)}
-	};
+        {"compression", RELOPT_TYPE_ENUM, offsetof(TableSpaceOpts, compression)}
+	}; 
 
 	return (bytea *) build_reloptions(reloptions, validate,
 									  RELOPT_KIND_TABLESPACE,

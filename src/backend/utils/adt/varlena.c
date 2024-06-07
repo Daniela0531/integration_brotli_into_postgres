@@ -5096,6 +5096,9 @@ pg_column_compression(PG_FUNCTION_ARGS)
 		case TOAST_PGLZ_COMPRESSION_ID:
 			result = "pglz";
 			break;
+		case TOAST_BROTLI_COMPRESSION_ID:
+			result = "brotli";
+			break;
 		case TOAST_LZ4_COMPRESSION_ID:
 			result = "lz4";
 			break;

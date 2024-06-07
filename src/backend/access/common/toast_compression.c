@@ -12,7 +12,7 @@
  *-------------------------------------------------------------------------
  */
 
-//////////////////// my_realisation ///////////
+//////////////////// my realization ///////////
 //////////// TODO
 
 #include "postgres.h"
@@ -25,9 +25,13 @@
 #include "access/toast_compression.h"
 #include "common/pg_lzcompress.h"
 #include "varatt.h"
+#include "common/brotli_compress.h"
 
 /* GUC */
-int			default_toast_compression = TOAST_PGLZ_COMPRESSION;
+// int			default_toast_compression = TOAST_PGLZ_COMPRESSION;
+// TODO // my realization
+int			default_toast_compression = TOAST_BROTLI_COMPRESSION;
+
 
 #define NO_LZ4_SUPPORT() \
 	ereport(ERROR, \
@@ -42,6 +46,8 @@ int			default_toast_compression = TOAST_PGLZ_COMPRESSION;
 struct varlena *
 brotli_compress_datum(const struct varlena *value)
 {
+    // elog(WARNING, "\ngo to brotli_compress_datum\n");
+    // Assert(false);
     int32		valsize,
             len;
     struct varlena *tmp = NULL;
@@ -66,15 +72,14 @@ brotli_compress_datum(const struct varlena *value)
 //    BrotliEncoderCompress()
 //    BrotliEncoderCompressStream()
 //    CompressFile()
-//    len = brotli_compress(VARDATA_ANY(value),
-//                        valsize,
-//                        (char *) tmp + VARHDRSZ_COMPRESSED,
-//                        NULL);
+    len = brotli_compress(VARDATA_ANY(value),
+                        valsize,
+                        (char *) tmp + VARHDRSZ_COMPRESSED);
 
-    len = pglz_compress(VARDATA_ANY(value),
-                          valsize,
-                          (char *) tmp + VARHDRSZ_COMPRESSED,
-                          NULL);
+//    len = pglz_compress(VARDATA_ANY(value),
+//                          valsize,
+//                          (char *) tmp + VARHDRSZ_COMPRESSED,
+//                          NULL);
 
     if (len < 0)
     {
@@ -93,6 +98,7 @@ brotli_compress_datum(const struct varlena *value)
 struct varlena *
 brotli_decompress_datum(const struct varlena *value)
 {
+    elog(WARNING, "\ngo to brotli_decompress_datum\n");
     struct varlena *result;
     int32		rawsize;
 
@@ -100,15 +106,15 @@ brotli_decompress_datum(const struct varlena *value)
     result = (struct varlena *) palloc(VARDATA_COMPRESSED_GET_EXTSIZE(value) + VARHDRSZ);
 
     /* decompress the data */
-//    rawsize = brotli_decompress((char *) value + VARHDRSZ_COMPRESSED,
-//                              VARSIZE(value) - VARHDRSZ_COMPRESSED,
-//                              VARDATA(result),
-//                              VARDATA_COMPRESSED_GET_EXTSIZE(value), true);
+    rawsize = brotli_decompress((char *) value + VARHDRSZ_COMPRESSED,
+                              VARSIZE(value) - VARHDRSZ_COMPRESSED,
+                              VARDATA(result),
+                              VARDATA_COMPRESSED_GET_EXTSIZE(value), true);
 
-    rawsize = pglz_decompress((char *) value + VARHDRSZ_COMPRESSED,
-                                VARSIZE(value) - VARHDRSZ_COMPRESSED,
-                                VARDATA(result),
-                                VARDATA_COMPRESSED_GET_EXTSIZE(value), true);
+//    rawsize = pglz_decompress((char *) value + VARHDRSZ_COMPRESSED,
+//                                VARSIZE(value) - VARHDRSZ_COMPRESSED,
+//                                VARDATA(result),
+//                                VARDATA_COMPRESSED_GET_EXTSIZE(value), true);
 
     if (rawsize < 0)
         ereport(ERROR,
@@ -127,6 +133,7 @@ struct varlena *
 brotli_decompress_datum_slice(const struct varlena *value,
                             int32 slicelength)
 {
+    elog(WARNING, "\ngo to brotli_decompress_datum_slice\n");
     struct varlena *result;
     int32		rawsize;
 
@@ -134,15 +141,16 @@ brotli_decompress_datum_slice(const struct varlena *value,
     result = (struct varlena *) palloc(slicelength + VARHDRSZ);
 
     /* decompress the data */
-//    rawsize = brotli_decompress((char *) value + VARHDRSZ_COMPRESSED,
-//                              VARSIZE(value) - VARHDRSZ_COMPRESSED,
-//                              VARDATA(result),
-//                              slicelength, false);
 
-    rawsize = pglz_decompress((char *) value + VARHDRSZ_COMPRESSED,
-                                VARSIZE(value) - VARHDRSZ_COMPRESSED,
-                                VARDATA(result),
-                                slicelength, false);
+    rawsize = brotli_decompress((char *) value + VARHDRSZ_COMPRESSED,
+                              VARSIZE(value) - VARHDRSZ_COMPRESSED,
+                              VARDATA(result),
+                              slicelength, false);
+
+//    rawsize = pglz_decompress((char *) value + VARHDRSZ_COMPRESSED,
+//                                VARSIZE(value) - VARHDRSZ_COMPRESSED,
+//                                VARDATA(result),
+//                                slicelength, false);
     if (rawsize < 0)
         ereport(ERROR,
                 (errcode(ERRCODE_DATA_CORRUPTED),
@@ -162,6 +170,8 @@ brotli_decompress_datum_slice(const struct varlena *value,
 struct varlena *
 pglz_compress_datum(const struct varlena *value)
 {
+    elog(WARNING, "\ngo to pglz_compress_datum\n");
+    Assert(false);
     int32		valsize,
             len;
     struct varlena *tmp = NULL;
@@ -409,6 +419,8 @@ CompressionNameToMethod(const char *compression)
 {
     if (strcmp(compression, "pglz") == 0)
         return TOAST_PGLZ_COMPRESSION;
+    else if (strcmp(compression, "brotli") == 0)
+        return TOAST_BROTLI_COMPRESSION;
     else if (strcmp(compression, "lz4") == 0)
     {
 #ifndef USE_LZ4

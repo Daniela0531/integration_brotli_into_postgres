@@ -509,26 +509,27 @@ int32
 pglz_compress(const char *source, int32 slen, char *dest,
 			  const PGLZ_Strategy *strategy)
 {
+    // Assert(false);
 	unsigned char *bp = (unsigned char *) dest;
 	unsigned char *bstart = bp;
-	int			hist_next = 1;
-	bool		hist_recycle = false;
-	const char *dp = source;
-	const char *dend = source + slen;
+	int			  hist_next = 1;
+	bool		  hist_recycle = false;
+	const char    *dp = source;
+	const char    *dend = source + slen;
 	unsigned char ctrl_dummy = 0;
 	unsigned char *ctrlp = &ctrl_dummy;
 	unsigned char ctrlb = 0;
 	unsigned char ctrl = 0;
-	bool		found_match = false;
-	int32		match_len;
-	int32		match_off;
-	int32		good_match;
-	int32		good_drop;
-	int32		result_size;
-	int32		result_max;
-	int32		need_rate;
-	int			hashsz;
-	int			mask;
+	bool		  found_match = false;
+	int32		  match_len;
+	int32		  match_off;
+	int32		  good_match;
+	int32		  good_drop;
+	int32		  result_size;
+	int32		  result_max;
+	int32		  need_rate;
+	int			  hashsz;
+	int			  mask;
 
 	/*
 	 * Our fallback strategy is the default.

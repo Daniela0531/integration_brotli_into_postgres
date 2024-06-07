@@ -740,7 +740,7 @@ heapam_relation_copy_data(Relation rel, const RelFileLocator *newrlocator)
 	/* drop old relation, and close new one */
 	RelationDropStorage(rel);
 	smgrclose(dstrel);
-}
+} 
 
 static void
 heapam_relation_copy_for_cluster(Relation OldHeap, Relation NewHeap,

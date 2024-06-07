@@ -1,0 +1,8 @@
+{
+    "files.associations": {
+        "encode.h": "c",
+        "decode.h": "c",
+        "pg_lzcompress.h": "c",
+        "reloptions.h": "c"
+    }
+}

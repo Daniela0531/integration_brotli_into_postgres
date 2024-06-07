@@ -254,6 +254,12 @@ detoast_attr_slice(struct varlena *attr,
 			if (VARATT_EXTERNAL_GET_COMPRESS_METHOD(toast_pointer) ==
 				TOAST_PGLZ_COMPRESSION_ID)
 				max_size = pglz_maximum_compressed_size(slicelimit, max_size);
+			
+			if (VARATT_EXTERNAL_GET_COMPRESS_METHOD(toast_pointer) ==
+				TOAST_BROTLI_COMPRESSION_ID) {
+					// TODO // my realization
+					max_size = pglz_maximum_compressed_size(slicelimit, max_size);
+			}
 
 			/*
 			 * Fetch enough compressed slices (compressed marker will get set
@@ -483,6 +489,8 @@ toast_decompress_datum(struct varlena *attr)
 	{
 		case TOAST_PGLZ_COMPRESSION_ID:
 			return pglz_decompress_datum(attr);
+		case TOAST_BROTLI_COMPRESSION_ID:
+			return brotli_decompress_datum(attr);
 		case TOAST_LZ4_COMPRESSION_ID:
 			return lz4_decompress_datum(attr);
 		default:
@@ -526,6 +534,8 @@ toast_decompress_datum_slice(struct varlena *attr, int32 slicelength)
 	{
 		case TOAST_PGLZ_COMPRESSION_ID:
 			return pglz_decompress_datum_slice(attr, slicelength);
+		case TOAST_BROTLI_COMPRESSION_ID:
+			return brotli_decompress_datum_slice(attr, slicelength);
 		case TOAST_LZ4_COMPRESSION_ID:
 			return lz4_decompress_datum_slice(attr, slicelength);
 		default:

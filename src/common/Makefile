@@ -40,7 +40,7 @@ override CPPFLAGS += -DVAL_LDFLAGS_EX="\"$(LDFLAGS_EX)\""
 override CPPFLAGS += -DVAL_LDFLAGS_SL="\"$(LDFLAGS_SL)\""
 override CPPFLAGS += -DVAL_LIBS="\"$(LIBS)\""
 
-override CPPFLAGS := -DFRONTEND -I. -I$(top_srcdir)/src/common $(CPPFLAGS)
+override CPPFLAGS := -DFRONTEND -I. -I$(top_srcdir)/src/common -I$(top_srcdir)/src/common/brotli/c/include $(CPPFLAGS)
 LIBS += $(PTHREAD_LIBS)
 
 OBJS_COMMON = \
@@ -83,7 +83,8 @@ OBJS_COMMON = \
 	unicode_norm.o \
 	username.o \
 	wait_error.o \
-	wchar.o
+	wchar.o \
+	brotli_compress.o
 
 ifeq ($(with_ssl),openssl)
 OBJS_COMMON += \

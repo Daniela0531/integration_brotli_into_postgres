@@ -16641,6 +16641,9 @@ dumpTableSchema(Archive *fout, const TableInfo *tbinfo)
 					case 'p':
 						cmname = "pglz";
 						break;
+					case 'b':
+						cmname = "brotli";
+						break;
 					case 'l':
 						cmname = "lz4";
 						break;

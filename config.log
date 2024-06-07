@@ -30,15 +30,13 @@ Kernel configured for up to 8 processors.
 Processor type: arm64e (ARM64E)
 Processors active: 0 1 2 3 4 5 6 7
 Primary memory available: 16.00 gigabytes
-Default processor set: 479 tasks, 2729 threads, 8 processors
-Load average: 1.78, Mach factor: 6.21
+Default processor set: 564 tasks, 2605 threads, 8 processors
+Load average: 2.29, Mach factor: 5.78
 /bin/machine           = unknown
 /usr/bin/oslevel       = unknown
 /bin/universe          = unknown
 
 PATH: /Users/daniela/.nvm/versions/node/v21.7.1/bin
-PATH: /Users/daniela/miniforge3/bin
-PATH: /Users/daniela/miniforge3/condabin
 PATH: /opt/homebrew/bin
 PATH: /opt/homebrew/sbin
 PATH: /usr/local/bin
@@ -50,6 +48,25 @@ PATH: /sbin
 PATH: /var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/local/bin
 PATH: /var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/bin
 PATH: /var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/appleinternal/bin
+PATH: /Users/daniela/.nvm/versions/node/v21.7.1/bin
+PATH: /Users/daniela/miniforge3/bin
+PATH: /Users/daniela/miniforge3/condabin
+PATH: /opt/homebrew/bin
+PATH: /opt/homebrew/sbin
+PATH: /Users/daniela/Desktop/research_work/final_qualifying_work/brotli_into_postgres/install/bin
+PATH: /Users/daniela/Desktop/research_work/final_qualifying_work/brotli_into_postgres/install/bin
+PATH: /Users/daniela/Desktop/research_work/final_qualifying_work/brotli_into_postgres/install/bin
+PATH: /Users/daniela/Desktop/research_work/final_qualifying_work/brotli_into_postgres/install/bin
+PATH: /Users/daniela/Desktop/research_work/final_qualifying_work/brotli_into_postgres/install/bin
+PATH: /Users/daniela/Desktop/research_work/final_qualifying_work/brotli_into_postgres/install/bin
+PATH: /Users/daniela/Desktop/research_work/final_qualifying_work/brotli_into_postgres/install/bin
+PATH: /Users/daniela/Desktop/research_work/final_qualifying_work/brotli_into_postgres/install/bin
+PATH: /Users/daniela/Desktop/research_work/final_qualifying_work/brotli_into_postgres/install/bin
+PATH: /Users/daniela/Desktop/research_work/final_qualifying_work/brotli_into_postgres/install/bin
+PATH: /Users/daniela/Desktop/research_work/final_qualifying_work/brotli_into_postgres/install/bin
+PATH: /Users/daniela/Desktop/research_work/final_qualifying_work/brotli_into_postgres/install/bin
+PATH: /Users/daniela/Desktop/research_work/final_qualifying_work/brotli_into_postgres/install/bin
+PATH: /Users/daniela/Desktop/research_work/final_qualifying_work/brotli_into_postgres/install/bin
 PATH: /Users/daniela/Desktop/research_work/final_qualifying_work/brotli_into_postgres/install/bin
 PATH: /Users/daniela/Desktop/research_work/final_qualifying_work/brotli_into_postgres/install/bin
 PATH: /Users/daniela/Desktop/research_work/final_qualifying_work/brotli_into_postgres/install/bin
@@ -869,7 +886,7 @@ configure:11486: checking for library containing setproctitle
 configure:11517: gcc -o conftest -Wall -Wmissing-prototypes -Wpointer-arith -Wdeclaration-after-statement -Werror=vla -Werror=unguarded-availability-new -Wendif-labels -Wmissing-format-attribute -Wcast-function-type -Wformat-security -fno-strict-aliasing -fwrapv -Wno-unused-command-line-argument -Wno-compound-token-split-by-macro -O2 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX14.4.sdk   -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX14.4.sdk   conftest.c -lm  >&5
 Undefined symbols for architecture arm64:
   "_setproctitle", referenced from:
-      _main in conftest-30e197.o
+      _main in conftest-265cd5.o
 ld: symbol(s) not found for architecture arm64
 clang: error: linker command failed with exit code 1 (use -v to see invocation)
 configure:11517: $? = 1
@@ -928,7 +945,7 @@ configure: failed program was:
 configure:11517: gcc -o conftest -Wall -Wmissing-prototypes -Wpointer-arith -Wdeclaration-after-statement -Werror=vla -Werror=unguarded-availability-new -Wendif-labels -Wmissing-format-attribute -Wcast-function-type -Wformat-security -fno-strict-aliasing -fwrapv -Wno-unused-command-line-argument -Wno-compound-token-split-by-macro -O2 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX14.4.sdk   -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX14.4.sdk   conftest.c -lutil  -lm  >&5
 Undefined symbols for architecture arm64:
   "_setproctitle", referenced from:
-      _main in conftest-40aa6b.o
+      _main in conftest-1f6c93.o
 ld: symbol(s) not found for architecture arm64
 clang: error: linker command failed with exit code 1 (use -v to see invocation)
 configure:11517: $? = 1
@@ -1021,7 +1038,7 @@ configure:11996: checking for library containing pthread_barrier_wait
 configure:12027: gcc -o conftest -Wall -Wmissing-prototypes -Wpointer-arith -Wdeclaration-after-statement -Werror=vla -Werror=unguarded-availability-new -Wendif-labels -Wmissing-format-attribute -Wcast-function-type -Wformat-security -fno-strict-aliasing -fwrapv -Wno-unused-command-line-argument -Wno-compound-token-split-by-macro -O2 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX14.4.sdk   -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX14.4.sdk   conftest.c -lm  >&5
 Undefined symbols for architecture arm64:
   "_pthread_barrier_wait", referenced from:
-      _main in conftest-780223.o
+      _main in conftest-08c94b.o
 ld: symbol(s) not found for architecture arm64
 clang: error: linker command failed with exit code 1 (use -v to see invocation)
 configure:12027: $? = 1
@@ -1080,7 +1097,7 @@ configure: failed program was:
 configure:12027: gcc -o conftest -Wall -Wmissing-prototypes -Wpointer-arith -Wdeclaration-after-statement -Werror=vla -Werror=unguarded-availability-new -Wendif-labels -Wmissing-format-attribute -Wcast-function-type -Wformat-security -fno-strict-aliasing -fwrapv -Wno-unused-command-line-argument -Wno-compound-token-split-by-macro -O2 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX14.4.sdk   -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX14.4.sdk   conftest.c -lpthread  -lm  >&5
 Undefined symbols for architecture arm64:
   "_pthread_barrier_wait", referenced from:
-      _main in conftest-c738cc.o
+      _main in conftest-26ab56.o
 ld: symbol(s) not found for architecture arm64
 clang: error: linker command failed with exit code 1 (use -v to see invocation)
 configure:12027: $? = 1
@@ -2582,15 +2599,15 @@ configure:13506: result: yes
 configure:13506: checking for zlib.h
 configure:13506: result: yes
 configure:13524: checking for lz4
-configure:13542: found /Users/daniela/miniforge3/bin/lz4
-configure:13554: result: /Users/daniela/miniforge3/bin/lz4
+configure:13542: found /opt/homebrew/bin/lz4
+configure:13554: result: /opt/homebrew/bin/lz4
 configure:13589: checking for zstd
-configure:13607: found /Users/daniela/miniforge3/bin/zstd
-configure:13619: result: /Users/daniela/miniforge3/bin/zstd
+configure:13607: found /opt/homebrew/bin/zstd
+configure:13619: result: /opt/homebrew/bin/zstd
 configure:13711: checking for openssl
-configure:13729: found /Users/daniela/miniforge3/bin/openssl
-configure:13741: result: /Users/daniela/miniforge3/bin/openssl
-configure:13761: using openssl: OpenSSL 3.3.0 9 Apr 2024 (Library: OpenSSL 3.3.0 9 Apr 2024)
+configure:13729: found /opt/homebrew/bin/openssl
+configure:13741: result: /opt/homebrew/bin/openssl
+configure:13761: using openssl: OpenSSL 3.2.1 30 Jan 2024 (Library: OpenSSL 3.2.1 30 Jan 2024)
 configure:14086: checking whether byte ordering is bigendian
 configure:14101: gcc -c -Wall -Wmissing-prototypes -Wpointer-arith -Wdeclaration-after-statement -Werror=vla -Werror=unguarded-availability-new -Wendif-labels -Wmissing-format-attribute -Wcast-function-type -Wformat-security -fno-strict-aliasing -fwrapv -Wno-unused-command-line-argument -Wno-compound-token-split-by-macro -O2 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX14.4.sdk   conftest.c >&5
 configure:14101: $? = 0
@@ -3335,7 +3352,7 @@ configure:15265: checking for copy_file_range
 configure:15265: gcc -o conftest -Wall -Wmissing-prototypes -Wpointer-arith -Wdeclaration-after-statement -Werror=vla -Werror=unguarded-availability-new -Wendif-labels -Wmissing-format-attribute -Wcast-function-type -Wformat-security -fno-strict-aliasing -fwrapv -Wno-unused-command-line-argument -Wno-compound-token-split-by-macro -O2 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX14.4.sdk   -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX14.4.sdk   conftest.c -lz  -lm  >&5
 Undefined symbols for architecture arm64:
   "_copy_file_range", referenced from:
-      _main in conftest-6ca426.o
+      _main in conftest-9b9893.o
 ld: symbol(s) not found for architecture arm64
 clang: error: linker command failed with exit code 1 (use -v to see invocation)
 configure:15265: $? = 1
@@ -3461,7 +3478,7 @@ configure:15265: checking for getpeerucred
 configure:15265: gcc -o conftest -Wall -Wmissing-prototypes -Wpointer-arith -Wdeclaration-after-statement -Werror=vla -Werror=unguarded-availability-new -Wendif-labels -Wmissing-format-attribute -Wcast-function-type -Wformat-security -fno-strict-aliasing -fwrapv -Wno-unused-command-line-argument -Wno-compound-token-split-by-macro -O2 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX14.4.sdk   -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX14.4.sdk   conftest.c -lz  -lm  >&5
 Undefined symbols for architecture arm64:
   "_getpeerucred", referenced from:
-      _main in conftest-dd1759.o
+      _main in conftest-13c013.o
 ld: symbol(s) not found for architecture arm64
 clang: error: linker command failed with exit code 1 (use -v to see invocation)
 configure:15265: $? = 1
@@ -3600,7 +3617,7 @@ configure:15265: checking for posix_fallocate
 configure:15265: gcc -o conftest -Wall -Wmissing-prototypes -Wpointer-arith -Wdeclaration-after-statement -Werror=vla -Werror=unguarded-availability-new -Wendif-labels -Wmissing-format-attribute -Wcast-function-type -Wformat-security -fno-strict-aliasing -fwrapv -Wno-unused-command-line-argument -Wno-compound-token-split-by-macro -O2 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX14.4.sdk   -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX14.4.sdk   conftest.c -lz  -lm  >&5
 Undefined symbols for architecture arm64:
   "_posix_fallocate", referenced from:
-      _main in conftest-c23e61.o
+      _main in conftest-611fd6.o
 ld: symbol(s) not found for architecture arm64
 clang: error: linker command failed with exit code 1 (use -v to see invocation)
 configure:15265: $? = 1
@@ -3727,7 +3744,7 @@ configure:15265: checking for ppoll
 configure:15265: gcc -o conftest -Wall -Wmissing-prototypes -Wpointer-arith -Wdeclaration-after-statement -Werror=vla -Werror=unguarded-availability-new -Wendif-labels -Wmissing-format-attribute -Wcast-function-type -Wformat-security -fno-strict-aliasing -fwrapv -Wno-unused-command-line-argument -Wno-compound-token-split-by-macro -O2 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX14.4.sdk   -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX14.4.sdk   conftest.c -lz  -lm  >&5
 Undefined symbols for architecture arm64:
   "_ppoll", referenced from:
-      _main in conftest-5d9069.o
+      _main in conftest-ca63c7.o
 ld: symbol(s) not found for architecture arm64
 clang: error: linker command failed with exit code 1 (use -v to see invocation)
 configure:15265: $? = 1
@@ -3858,7 +3875,7 @@ configure:15265: checking for setproctitle
 configure:15265: gcc -o conftest -Wall -Wmissing-prototypes -Wpointer-arith -Wdeclaration-after-statement -Werror=vla -Werror=unguarded-availability-new -Wendif-labels -Wmissing-format-attribute -Wcast-function-type -Wformat-security -fno-strict-aliasing -fwrapv -Wno-unused-command-line-argument -Wno-compound-token-split-by-macro -O2 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX14.4.sdk   -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX14.4.sdk   conftest.c -lz  -lm  >&5
 Undefined symbols for architecture arm64:
   "_setproctitle", referenced from:
-      _main in conftest-33cf22.o
+      _main in conftest-a0aad0.o
 ld: symbol(s) not found for architecture arm64
 clang: error: linker command failed with exit code 1 (use -v to see invocation)
 configure:15265: $? = 1
@@ -3986,7 +4003,7 @@ configure:15265: checking for setproctitle_fast
 configure:15265: gcc -o conftest -Wall -Wmissing-prototypes -Wpointer-arith -Wdeclaration-after-statement -Werror=vla -Werror=unguarded-availability-new -Wendif-labels -Wmissing-format-attribute -Wcast-function-type -Wformat-security -fno-strict-aliasing -fwrapv -Wno-unused-command-line-argument -Wno-compound-token-split-by-macro -O2 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX14.4.sdk   -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX14.4.sdk   conftest.c -lz  -lm  >&5
 Undefined symbols for architecture arm64:
   "_setproctitle_fast", referenced from:
-      _main in conftest-7e2106.o
+      _main in conftest-f315a1.o
 ld: symbol(s) not found for architecture arm64
 clang: error: linker command failed with exit code 1 (use -v to see invocation)
 configure:15265: $? = 1
@@ -4114,7 +4131,7 @@ configure:15265: checking for strchrnul
 configure:15265: gcc -o conftest -Wall -Wmissing-prototypes -Wpointer-arith -Wdeclaration-after-statement -Werror=vla -Werror=unguarded-availability-new -Wendif-labels -Wmissing-format-attribute -Wcast-function-type -Wformat-security -fno-strict-aliasing -fwrapv -Wno-unused-command-line-argument -Wno-compound-token-split-by-macro -O2 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX14.4.sdk   -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX14.4.sdk   conftest.c -lz  -lm  >&5
 Undefined symbols for architecture arm64:
   "_strchrnul", referenced from:
-      _main in conftest-a57410.o
+      _main in conftest-5279e4.o
 ld: symbol(s) not found for architecture arm64
 clang: error: linker command failed with exit code 1 (use -v to see invocation)
 configure:15265: $? = 1
@@ -4246,7 +4263,7 @@ configure:15265: checking for syncfs
 configure:15265: gcc -o conftest -Wall -Wmissing-prototypes -Wpointer-arith -Wdeclaration-after-statement -Werror=vla -Werror=unguarded-availability-new -Wendif-labels -Wmissing-format-attribute -Wcast-function-type -Wformat-security -fno-strict-aliasing -fwrapv -Wno-unused-command-line-argument -Wno-compound-token-split-by-macro -O2 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX14.4.sdk   -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX14.4.sdk   conftest.c -lz  -lm  >&5
 Undefined symbols for architecture arm64:
   "_syncfs", referenced from:
-      _main in conftest-b1e55c.o
+      _main in conftest-693a9c.o
 ld: symbol(s) not found for architecture arm64
 clang: error: linker command failed with exit code 1 (use -v to see invocation)
 configure:15265: $? = 1
@@ -4375,7 +4392,7 @@ configure:15265: checking for sync_file_range
 configure:15265: gcc -o conftest -Wall -Wmissing-prototypes -Wpointer-arith -Wdeclaration-after-statement -Werror=vla -Werror=unguarded-availability-new -Wendif-labels -Wmissing-format-attribute -Wcast-function-type -Wformat-security -fno-strict-aliasing -fwrapv -Wno-unused-command-line-argument -Wno-compound-token-split-by-macro -O2 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX14.4.sdk   -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX14.4.sdk   conftest.c -lz  -lm  >&5
 Undefined symbols for architecture arm64:
   "_sync_file_range", referenced from:
-      _main in conftest-08589f.o
+      _main in conftest-95d04f.o
 ld: symbol(s) not found for architecture arm64
 clang: error: linker command failed with exit code 1 (use -v to see invocation)
 configure:15265: $? = 1
@@ -4709,7 +4726,7 @@ configure:15712: checking for posix_fadvise
 configure:15712: gcc -o conftest -Wall -Wmissing-prototypes -Wpointer-arith -Wdeclaration-after-statement -Werror=vla -Werror=unguarded-availability-new -Wendif-labels -Wmissing-format-attribute -Wcast-function-type -Wformat-security -fno-strict-aliasing -fwrapv -Wno-unused-command-line-argument -Wno-compound-token-split-by-macro -O2 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX14.4.sdk   -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX14.4.sdk   conftest.c -lz  -lm  >&5
 Undefined symbols for architecture arm64:
   "_posix_fadvise", referenced from:
-      _main in conftest-95236c.o
+      _main in conftest-d5d9b1.o
 ld: symbol(s) not found for architecture arm64
 clang: error: linker command failed with exit code 1 (use -v to see invocation)
 configure:15712: $? = 1
@@ -5105,7 +5122,7 @@ configure:15821: checking for explicit_bzero
 configure:15821: gcc -o conftest -Wall -Wmissing-prototypes -Wpointer-arith -Wdeclaration-after-statement -Werror=vla -Werror=unguarded-availability-new -Wendif-labels -Wmissing-format-attribute -Wcast-function-type -Wformat-security -fno-strict-aliasing -fwrapv -Wno-unused-command-line-argument -Wno-compound-token-split-by-macro -O2 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX14.4.sdk   -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX14.4.sdk   conftest.c -lz  -lm  >&5
 Undefined symbols for architecture arm64:
   "_explicit_bzero", referenced from:
-      _main in conftest-630019.o
+      _main in conftest-605343.o
 ld: symbol(s) not found for architecture arm64
 clang: error: linker command failed with exit code 1 (use -v to see invocation)
 configure:15821: $? = 1
@@ -5290,7 +5307,7 @@ configure:15927: checking for pthread_barrier_wait
 configure:15927: gcc -o conftest -Wall -Wmissing-prototypes -Wpointer-arith -Wdeclaration-after-statement -Werror=vla -Werror=unguarded-availability-new -Wendif-labels -Wmissing-format-attribute -Wcast-function-type -Wformat-security -fno-strict-aliasing -fwrapv -Wno-unused-command-line-argument -Wno-compound-token-split-by-macro -O2 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX14.4.sdk   -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX14.4.sdk   conftest.c -lz  -lm  >&5
 Undefined symbols for architecture arm64:
   "_pthread_barrier_wait", referenced from:
-      _main in conftest-273e09.o
+      _main in conftest-1ea379.o
 ld: symbol(s) not found for architecture arm64
 clang: error: linker command failed with exit code 1 (use -v to see invocation)
 configure:15927: $? = 1
@@ -5879,7 +5896,7 @@ configure:16393: checking for append_history
 configure:16393: gcc -o conftest -Wall -Wmissing-prototypes -Wpointer-arith -Wdeclaration-after-statement -Werror=vla -Werror=unguarded-availability-new -Wendif-labels -Wmissing-format-attribute -Wcast-function-type -Wformat-security -fno-strict-aliasing -fwrapv -Wno-unused-command-line-argument -Wno-compound-token-split-by-macro -O2 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX14.4.sdk   -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX14.4.sdk   conftest.c -lz -lreadline -lm  >&5
 Undefined symbols for architecture arm64:
   "_append_history", referenced from:
-      _main in conftest-dc557d.o
+      _main in conftest-1648bf.o
 ld: symbol(s) not found for architecture arm64
 clang: error: linker command failed with exit code 1 (use -v to see invocation)
 configure:16393: $? = 1
@@ -6049,7 +6066,7 @@ configure:16393: checking for rl_reset_screen_size
 configure:16393: gcc -o conftest -Wall -Wmissing-prototypes -Wpointer-arith -Wdeclaration-after-statement -Werror=vla -Werror=unguarded-availability-new -Wendif-labels -Wmissing-format-attribute -Wcast-function-type -Wformat-security -fno-strict-aliasing -fwrapv -Wno-unused-command-line-argument -Wno-compound-token-split-by-macro -O2 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX14.4.sdk   -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX14.4.sdk   conftest.c -lz -lreadline -lm  >&5
 Undefined symbols for architecture arm64:
   "_rl_reset_screen_size", referenced from:
-      _main in conftest-5b952d.o
+      _main in conftest-7ba765.o
 ld: symbol(s) not found for architecture arm64
 clang: error: linker command failed with exit code 1 (use -v to see invocation)
 configure:16393: $? = 1
@@ -8042,8 +8059,8 @@ configure:17967: result: /dev/urandom
 configure:17969: checking for /dev/urandom
 configure:17982: result: yes
 configure:18455: checking for xmllint
-configure:18473: found /Users/daniela/miniforge3/bin/xmllint
-configure:18485: result: /Users/daniela/miniforge3/bin/xmllint
+configure:18473: found /usr/bin/xmllint
+configure:18485: result: /usr/bin/xmllint
 configure:18509: checking for xsltproc
 configure:18527: found /usr/bin/xsltproc
 configure:18539: result: /usr/bin/xsltproc
@@ -8415,14 +8432,14 @@ ac_cv_objext=o
 ac_cv_path_BISON=/usr/bin/bison
 ac_cv_path_EGREP='/usr/bin/grep -E'
 ac_cv_path_GREP=/usr/bin/grep
-ac_cv_path_LZ4=/Users/daniela/miniforge3/bin/lz4
-ac_cv_path_OPENSSL=/Users/daniela/miniforge3/bin/openssl
+ac_cv_path_LZ4=/opt/homebrew/bin/lz4
+ac_cv_path_OPENSSL=/opt/homebrew/bin/openssl
 ac_cv_path_PERL=/usr/bin/perl
 ac_cv_path_SED=/usr/bin/sed
 ac_cv_path_TAR=/usr/bin/tar
-ac_cv_path_XMLLINT=/Users/daniela/miniforge3/bin/xmllint
+ac_cv_path_XMLLINT=/usr/bin/xmllint
 ac_cv_path_XSLTPROC=/usr/bin/xsltproc
-ac_cv_path_ZSTD=/Users/daniela/miniforge3/bin/zstd
+ac_cv_path_ZSTD=/opt/homebrew/bin/zstd
 ac_cv_path_ac_pt_PKG_CONFIG=/opt/homebrew/bin/pkg-config
 ac_cv_path_install='/opt/homebrew/bin/ginstall -c'
 ac_cv_path_mkdir=/opt/homebrew/bin/gmkdir
@@ -8606,7 +8623,7 @@ LLVM_CXXFLAGS=''
 LLVM_LIBS=''
 LN_S='ln -s'
 LTLIBOBJS=' ${LIBOBJDIR}explicit_bzero$U.lo ${LIBOBJDIR}pthread_barrier_wait$U.lo'
-LZ4='/Users/daniela/miniforge3/bin/lz4'
+LZ4='/opt/homebrew/bin/lz4'
 LZ4_CFLAGS=''
 LZ4_LIBS=''
 MKDIR_P='/opt/homebrew/bin/gmkdir -p'
@@ -8614,7 +8631,7 @@ MSGFMT=''
 MSGFMT_FLAGS=''
 MSGMERGE=''
 OBJEXT='o'
-OPENSSL='/Users/daniela/miniforge3/bin/openssl'
+OPENSSL='/opt/homebrew/bin/openssl'
 PACKAGE_BUGREPORT='pgsql-bugs@lists.postgresql.org'
 PACKAGE_NAME='PostgreSQL'
 PACKAGE_STRING='PostgreSQL 17devel'
@@ -8658,10 +8675,10 @@ XGETTEXT=''
 XML2_CFLAGS=''
 XML2_CONFIG=''
 XML2_LIBS=''
-XMLLINT='/Users/daniela/miniforge3/bin/xmllint'
+XMLLINT='/usr/bin/xmllint'
 XSLTPROC='/usr/bin/xsltproc'
 ZIC=''
-ZSTD='/Users/daniela/miniforge3/bin/zstd'
+ZSTD='/opt/homebrew/bin/zstd'
 ZSTD_CFLAGS=''
 ZSTD_LIBS=''
 ac_ct_CC='gcc'
