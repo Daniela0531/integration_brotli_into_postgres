@@ -694,6 +694,9 @@ ObjectAddress
 DefineRelation(CreateStmt *stmt, char relkind, Oid ownerId,
 			   ObjectAddress *typaddress, const char *queryString)
 {
+	printf("my log DefineRelation\n");
+	fflush(stdout);
+	// elog(LOG, "my log in DefineRelation\n");
 	char		relname[NAMEDATALEN];
 	Oid			namespaceId;
 	Oid			relationId;

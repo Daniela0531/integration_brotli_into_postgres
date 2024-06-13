@@ -685,6 +685,9 @@ PortalRun(Portal portal, long count, bool isTopLevel, bool run_once,
 		  DestReceiver *dest, DestReceiver *altdest,
 		  QueryCompletion *qc)
 {
+	printf("my log PortalRun\n");
+	fflush(stdout);
+	// elog(LOG, "my log in PortalRun\n");
 	bool		result;
 	uint64		nprocessed;
 	ResourceOwner saveTopTransactionResourceOwner;
@@ -1128,6 +1131,9 @@ PortalRunUtility(Portal portal, PlannedStmt *pstmt,
 				 bool isTopLevel, bool setHoldSnapshot,
 				 DestReceiver *dest, QueryCompletion *qc)
 {
+	printf("my log PortalRunUtility\n");
+	fflush(stdout);
+	// elog(LOG, "my log in PortalRunUtility\n");
 	/*
 	 * Set snapshot if utility stmt needs one.
 	 */
@@ -1192,6 +1198,9 @@ PortalRunMulti(Portal portal,
 			   DestReceiver *dest, DestReceiver *altdest,
 			   QueryCompletion *qc)
 {
+	printf("my log PortalRunMulti\n");
+	fflush(stdout);
+	// elog(LOG, "my log in PortalRunMulti\n");
 	bool		active_snapshot_set = false;
 	ListCell   *stmtlist_item;
 

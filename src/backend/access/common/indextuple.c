@@ -123,7 +123,8 @@ index_form_tuple_context(TupleDesc tupleDescriptor,
 			 att->attstorage == TYPSTORAGE_MAIN))
 		{
 			Datum		cvalue;
-
+			printf("my log in index_form_tuple_context next toast_compress_datum");
+			fflush(stdout);
 			cvalue = toast_compress_datum(untoasted_values[i],
 										  att->attcompression);
 

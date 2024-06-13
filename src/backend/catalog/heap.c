@@ -949,6 +949,9 @@ InsertPgClassTuple(Relation pg_class_desc,
 	/* relpartbound is set by updating this tuple, if necessary */
 	nulls[Anum_pg_class_relpartbound - 1] = true;
 
+	elog(LOG, "my log next heap_form_tuple");
+	printf("my log next heap_form_tuple");
+	fflush(stdout);
 	tup = heap_form_tuple(RelationGetDescr(pg_class_desc), values, nulls);
 
 	/* finally insert the new tuple, update the indexes, and clean up */
@@ -2799,6 +2802,9 @@ List *
 AddRelationNotNullConstraints(Relation rel, List *constraints,
 							  List *old_notnulls)
 {
+	printf("my log AddRelationNotNullConstraints\n");
+	fflush(stdout);
+	// elog(LOG, "my log in AddRelationNotNullConstraints\n");
 	List	   *givennames;
 	List	   *nnnames;
 	List	   *nncols = NIL;

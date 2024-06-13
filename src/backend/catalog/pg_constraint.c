@@ -80,6 +80,9 @@ CreateConstraintEntry(const char *constraintName,
 					  bool conPeriod,
 					  bool is_internal)
 {
+	printf("my log CreateConstraintEntry\n");
+	fflush(stdout);
+	// elog(LOG, "my log in CreateConstraintEntry\n");
 	Relation	conDesc;
 	Oid			conOid;
 	HeapTuple	tup;
@@ -235,6 +238,9 @@ CreateConstraintEntry(const char *constraintName,
 	else
 		nulls[Anum_pg_constraint_conbin - 1] = true;
 
+	elog(LOG, "my log next heap_form_tuple");
+	printf("my log next heap_form_tuple");
+	fflush(stdout);
 	tup = heap_form_tuple(RelationGetDescr(conDesc), values, nulls);
 
 	CatalogTupleInsert(conDesc, tup);

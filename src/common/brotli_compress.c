@@ -85,9 +85,12 @@ brotli_compress(const char *source, int32 slen, char *dest)
 //        size_t* decoded_size,
 //        uint8_t decoded_buffer[BROTLI_ARRAY_PARAM(*decoded_size)]);
 
-int32
-brotli_decompress(const char *source, int32 slen, char *dest,
-                int32 rawsize, bool check_complete)
+int32 brotli_decompress(
+    const char *source, 
+    int32 slen, 
+    char *dest,
+    int32 rawsize, 
+    bool check_complete)
 {
     elog(WARNING, "\ninto brotli_decompress\n");
     size_t encoded_size = (size_t)slen;

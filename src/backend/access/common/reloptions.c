@@ -481,13 +481,13 @@ static relopt_real realRelOpts[] =
 	{{NULL}}
 };
 
-static relopt_enum_elt_def CompressionTypeValues[] =
-{
-	{"pglz", COMPRESSION_OPTION_PGLZ},
-	{"lz4", COMPRESSION_OPTION_LZ4},
-	{"brotli", COMPRESSION_OPTION_BROTLI},
-	{(const char *) NULL}		/* list terminator */
-}
+// static relopt_enum_elt_def CompressionTypeValues[] =
+// {
+// 	{"pglz", COMPRESSION_OPTION_PGLZ},
+// 	{"lz4", COMPRESSION_OPTION_LZ4},
+// 	{"brotli", COMPRESSION_OPTION_BROTLI},
+// 	{(const char *) NULL}		/* list terminator */
+// };
 
 /* values from StdRdOptIndexCleanup */
 static relopt_enum_elt_def StdRdOptIndexCleanupValues[] =
@@ -526,17 +526,17 @@ static relopt_enum_elt_def viewCheckOptValues[] =
 
 static relopt_enum enumRelOpts[] =
 {
-	{
-        {
-            "compression",
-            "Wich type of compression to use",
-            RELOPT_KIND_TABLESPACE | RELOPT_KIND_HEAP | RELOPT_KIND_TOAST,
-            AccessExclusiveLock
-        },
-        CompressionTypeValues,
-		COMPRESSION_OPTION_PGLZ,
-		gettext_noop("Valid values are \"brotli\", \"pglz\", and \"lz4\".")
-    },
+	// {
+    //     {
+    //         "compression",
+    //         "Wich type of compression to use",
+    //         RELOPT_KIND_TABLESPACE,
+    //         AccessExclusiveLock
+    //     },
+    //     CompressionTypeValues,
+	// 	COMPRESSION_OPTION_PGLZ,
+	// 	gettext_noop("Valid values are \"brotli\", \"pglz\", and \"lz4\".")
+    // },
 	{
 		{
 			"vacuum_index_cleanup",
@@ -583,19 +583,6 @@ static relopt_enum enumRelOpts[] =
 
 static relopt_string stringRelOpts[] =
 {
-	// {
-    //     {
-    //         "compression",
-    //         "Type of compression",
-    //         RELOPT_KIND_TABLESPACE | RELOPT_KIND_HEAP | RELOPT_KIND_TOAST,
-    //         AccessExclusiveLock
-    //     },
-    //     0,
-	// 	false,
-	// 	NULL,
-	// 	NULL,
-	// 	"pglz"
-    // },
 	/* list terminator */
 	{{NULL}}
 };
@@ -2139,8 +2126,8 @@ tablespace_reloptions(Datum reloptions, bool validate)
 		{"random_page_cost", RELOPT_TYPE_REAL, offsetof(TableSpaceOpts, random_page_cost)},
 		{"seq_page_cost", RELOPT_TYPE_REAL, offsetof(TableSpaceOpts, seq_page_cost)},
 		{"effective_io_concurrency", RELOPT_TYPE_INT, offsetof(TableSpaceOpts, effective_io_concurrency)},
-		{"maintenance_io_concurrency", RELOPT_TYPE_INT, offsetof(TableSpaceOpts, maintenance_io_concurrency)},
-        {"compression", RELOPT_TYPE_ENUM, offsetof(TableSpaceOpts, compression)}
+		{"maintenance_io_concurrency", RELOPT_TYPE_INT, offsetof(TableSpaceOpts, maintenance_io_concurrency)}
+        // {"compression", RELOPT_TYPE_ENUM, offsetof(TableSpaceOpts, compression)}
 	}; 
 
 	return (bytea *) build_reloptions(reloptions, validate,

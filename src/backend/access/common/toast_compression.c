@@ -58,9 +58,9 @@ brotli_compress_datum(const struct varlena *value)
      * No point in wasting a palloc cycle if value size is outside the allowed
      * range for compression.
      */
-    if (valsize < PGLZ_strategy_default->min_input_size ||
-        valsize > PGLZ_strategy_default->max_input_size)
-        return NULL;
+    // if (valsize < PGLZ_strategy_default->min_input_size ||
+    //     valsize > PGLZ_strategy_default->max_input_size)
+    //     return NULL;
 
     /*
      * Figure out the maximum possible size of the pglz output, add the bytes
@@ -93,7 +93,7 @@ brotli_compress_datum(const struct varlena *value)
 }
 
 /*
- * Decompress a varlena that was compressed using PGLZ.
+ * Decompress a varlena that was compressed using brotli.
  */
 struct varlena *
 brotli_decompress_datum(const struct varlena *value)
@@ -171,7 +171,7 @@ struct varlena *
 pglz_compress_datum(const struct varlena *value)
 {
     elog(WARNING, "\ngo to pglz_compress_datum\n");
-    Assert(false);
+    // Assert(false);
     int32		valsize,
             len;
     struct varlena *tmp = NULL;
@@ -214,6 +214,7 @@ pglz_compress_datum(const struct varlena *value)
 struct varlena *
 pglz_decompress_datum(const struct varlena *value)
 {
+    elog(WARNING, "\ngo to pglz_decompress_datum\n");
     struct varlena *result;
     int32		rawsize;
 
@@ -242,6 +243,7 @@ struct varlena *
 pglz_decompress_datum_slice(const struct varlena *value,
                             int32 slicelength)
 {
+    elog(WARNING, "\ngo to pglz_decompress_datum_slice\n");
     struct varlena *result;
     int32		rawsize;
 

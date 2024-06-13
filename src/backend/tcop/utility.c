@@ -546,6 +546,9 @@ standard_ProcessUtility(PlannedStmt *pstmt,
 						DestReceiver *dest,
 						QueryCompletion *qc)
 {
+	printf("my log standard_ProcessUtility\n");
+	fflush(stdout);
+	// elog(LOG, "my log in standard_ProcessUtility\n");
 	Node	   *parsetree;
 	bool		isTopLevel = (context == PROCESS_UTILITY_TOPLEVEL);
 	bool		isAtomicContext = (!(context == PROCESS_UTILITY_TOPLEVEL || context == PROCESS_UTILITY_QUERY_NONATOMIC) || IsTransactionBlock());
@@ -1095,6 +1098,9 @@ ProcessUtilitySlow(ParseState *pstate,
 				   DestReceiver *dest,
 				   QueryCompletion *qc)
 {
+	printf("my log ProcessUtilitySlow\n");
+	fflush(stdout);
+	// elog(LOG, "my log in ProcessUtilitySlow\n");
 	Node	   *parsetree = pstmt->utilityStmt;
 	bool		isTopLevel = (context == PROCESS_UTILITY_TOPLEVEL);
 	bool		isCompleteQuery = (context != PROCESS_UTILITY_SUBCOMMAND);

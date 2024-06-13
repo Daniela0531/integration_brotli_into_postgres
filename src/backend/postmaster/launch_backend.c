@@ -227,6 +227,9 @@ postmaster_child_launch(BackendType child_type,
 						char *startup_data, size_t startup_data_len,
 						ClientSocket *client_sock)
 {
+	printf("my log postmaster_child_launch\n");
+	fflush(stdout);
+	// elog(LOG, "my log in postmaster_child_launch\n");
 	pid_t		pid;
 
 	Assert(IsPostmasterEnvironment && !IsUnderPostmaster);

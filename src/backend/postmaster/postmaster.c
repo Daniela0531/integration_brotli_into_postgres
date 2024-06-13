@@ -1369,6 +1369,9 @@ PostmasterMain(int argc, char *argv[])
 	/* Some workers may be scheduled to start now */
 	maybe_start_bgworkers();
 
+	printf("my log PostmasterMain, next ServerLoop\n");
+	fflush(stdout);
+	// elog(LOG, "my log PostmasterMain, next ServerLoop\n");
 	status = ServerLoop();
 
 	/*

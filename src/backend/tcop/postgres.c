@@ -1012,6 +1012,9 @@ pg_plan_queries(List *querytrees, const char *query_string, int cursorOptions,
 static void
 exec_simple_query(const char *query_string)
 {
+	printf("my log exec_simple_query\n");
+	fflush(stdout);
+	// elog(LOG, "my log in exec_simple_query\n");
 	CommandDest dest = whereToSendOutput;
 	MemoryContext oldcontext;
 	List	   *parsetree_list;
@@ -4151,6 +4154,9 @@ PostgresSingleUserMain(int argc, char *argv[],
 void
 PostgresMain(const char *dbname, const char *username)
 {
+	printf("my log PostgresMain\n");
+	fflush(stdout);
+	// elog(LOG, "my log in PostgresMain\n");
 	sigjmp_buf	local_sigjmp_buf;
 
 	/* these must be volatile to ensure state is preserved across longjmp: */

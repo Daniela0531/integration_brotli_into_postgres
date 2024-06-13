@@ -216,6 +216,10 @@ heap_compute_data_size(TupleDesc tupleDesc,
 					   const Datum *values,
 					   const bool *isnull)
 {
+	elog(LOG, "heap_compute_data_size\n");
+	// elog(LOG, "values = %p", values);
+	printf("values = %p", values);
+	fflush(stdout);
 	Size		data_length = 0;
 	int			i;
 	int			numberOfAttributes = tupleDesc->natts;
@@ -1154,6 +1158,7 @@ heap_form_tuple(TupleDesc tupleDescriptor,
 
 	hoff = len = MAXALIGN(len); /* align user data safely */
 
+	elog(LOG, "my log heap_form_tuple next heap_compute_data_size\n");
 	data_len = heap_compute_data_size(tupleDescriptor, values, isnull);
 
 	len += data_len;

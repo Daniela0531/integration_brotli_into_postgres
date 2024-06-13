@@ -52,6 +52,9 @@ static void StartupPacketTimeoutHandler(void);
 void
 BackendMain(char *startup_data, size_t startup_data_len)
 {
+	printf("my log BackendMain\n");
+	fflush(stdout);
+	// elog(LOG, "my log in BackendMain\n");
 	BackendStartupData *bsdata = (BackendStartupData *) startup_data;
 
 	Assert(startup_data_len == sizeof(BackendStartupData));
